@@ -28,7 +28,7 @@
       "version": "2024-kaitei.seed.22",
       "items": 33,
       "sources": 26,
-      "unconfirmed_requirements_disclosed": 61,
+      "unconfirmed_requirements_disclosed": 54,
       "license": "CC-BY-4.0",
       "doi": "10.5281/zenodo.22083722",
       "design": "Sources ranked statute/agency/secondary; unconfirmed stays confirmed:false; conflicts keep both claims; searches that found nothing are recorded.",
@@ -36,7 +36,8 @@
       "requirements_confirmed": 7,
       "sources_statute": 11,
       "conflicts_kept_open": 3,
-      "searches_that_found_nothing": 9
+      "searches_that_found_nothing": 9,
+      "counted_by": "JHNRD 自身の status.json (tools/validate.py が出す数)。こちらで数え直さない。"
     },
     {
       "id": "jidec",

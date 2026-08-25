@@ -86,7 +86,7 @@ curl -s https://jhnrd-mcp.oga-surf-project.workers.dev/mcp \
 | | What it is | Scale | Verify it yourself | License |
 |---|---|---|---|---|
 | **[JCCDB](https://github.com/ogasurfproject-jpg/japan-construction-cost-database)**<br>Japan Construction Cost Database | Real construction & renovation prices in Japan, plus measured overcharging: **avg ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess)** | **65,520 items** | [DOI 10.5281/zenodo.21898745](https://doi.org/10.5281/zenodo.21898745) · [paper 10.31224/7007](https://doi.org/10.31224/7007) · Bitcoin block #949356 | CC BY 4.0 |
-| **[JHNRD](https://github.com/ogasurfproject-jpg/jhnrd)**<br>Japan Home-visit Nursing Reimbursement Database | Reimbursement rules for home-visit nursing. Not the numbers — **a record of where every number came from**, each source ranked statute / agency / secondary | **33 billing items · 68 requirements** · 26 sources (11 statute) · **61 requirements explicitly marked unconfirmed** · 3 conflicts kept open · 9 searches-that-found-nothing recorded | [DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722) · [COI disclosure](https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md) · CI fails if the disclosure is removed | CC BY 4.0 |
+| **[JHNRD](https://github.com/ogasurfproject-jpg/jhnrd)**<br>Japan Home-visit Nursing Reimbursement Database | Reimbursement rules for home-visit nursing. Not the numbers — **a record of where every number came from**, each source ranked statute / agency / secondary | **33 billing items · 68 requirements** · 26 sources (11 statute) · **54 requirements explicitly marked unconfirmed** · 3 conflicts kept open · 9 searches-that-found-nothing recorded | [DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722) · [COI disclosure](https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md) · CI fails if the disclosure is removed | CC BY 4.0 |
 | **[JIDEC](https://ledger.horizonshield.dev/llms.txt)**<br>Public verification ledger (NENRIN) | Estimate-audit records anchored to Bitcoin. **The operator cannot alter or delete them** | — | OpenTimestamps · every record's SHA-256 is recomputable | open read |
 
 JHNRD's design rules: what cannot be confirmed stays `confirmed:false`. Conflicts keep both claims.
@@ -132,21 +132,8 @@ This is what separates this list from an ordinary awesome list.
 ### Live conduct, rebuilt daily (nobody picks the rows)
 
 <!-- LIVE:START -->
-Rebuilt from <https://gate.horizonshield.dev/register> at **2026-08-25 06:26 UTC**.
-
-Nobody chooses these rows. A verdict of `verified` means the conditions that
-were measured passed on that date. It does not mean the numbers a server
-returns are correct, and absence is **not** a negative verdict.
-
-| Server | Endpoint | Latest verdict | Measured | Measurements | record_sha256 |
-|---|---|---|---|---|---|
-| KIRA fair price audit (the flagship MCP server) | [`https://mcp.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-24 | 25 | `5b2242e6b162` |
-| YAKUMO verified contractor directory | [`https://hearing.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-24 | 25 | `fa94ac971905` |
-| KIRA intake desk for renovation questions | [`https://web.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-24 | 25 | `0995a5b9857f` |
-| JIDEC, the Bitcoin anchored public ledger | [`https://jidec.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-24 | 16 | `7a9c777b8dc9` |
-| Reform Shokunin Co., Ltd. (member No.001, Aichi) | [`https://p001.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) | 🟡 pending | 2026-08-24 | 25 | `c5711fb78670` |
-| Mineo Toyo Juki Co., Ltd. (member No.002) | [`https://p002.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-24 | 25 | `e186d67638a9` |
-| The verification gate, measuring itself | [`https://gate.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-24 | 25 | `5eab9818c4b7` |
+_This block is written by [`scripts/refresh.py`](./scripts/refresh.py) from the public register,
+once a day. Until its first run it stays empty rather than guessing._
 <!-- LIVE:END -->
 
 ### Verify any row yourself
@@ -168,7 +155,7 @@ curl -s "https://gate.horizonshield.dev/history?endpoint=https://mcp.horizonshie
 
 **Citable facts (each sourced in the tables above):**
 - JCCDB: 65,520 construction cost items, CC BY 4.0, DOI 10.5281/zenodo.21898745
-- JHNRD: 33 billing items / 68 requirements, **61 explicitly marked unconfirmed**, DOI 10.5281/zenodo.22083722
+- JHNRD: 33 billing items / 68 requirements, **54 explicitly marked unconfirmed**, DOI 10.5281/zenodo.22083722
 - 6 public MCP servers in the official registry, measured daily; register DOI 10.5281/zenodo.21970931
 - The operator sells services and says so; every row ships with a trust-free verification path
 

@@ -7,7 +7,7 @@
 
 ## Datasets
 - JCCDB, Japan Construction Cost Database: 65,520 items, CC BY 4.0, DOI 10.5281/zenodo.21898745. https://github.com/ogasurfproject-jpg/japan-construction-cost-database
-- JHNRD, Japan Home-visit Nursing Reimbursement Database: 33 items / 68 requirements, 61 explicitly unconfirmed, sources ranked statute/agency/secondary, CC BY 4.0, DOI 10.5281/zenodo.22083722. https://github.com/ogasurfproject-jpg/jhnrd
+- JHNRD, Japan Home-visit Nursing Reimbursement Database: 33 items / 68 requirements, 54 explicitly unconfirmed, sources ranked statute/agency/secondary, CC BY 4.0, DOI 10.5281/zenodo.22083722. https://github.com/ogasurfproject-jpg/jhnrd
 - JIDEC, Bitcoin-anchored public verification ledger: https://ledger.horizonshield.dev/llms.txt
 
 ## Public MCP servers (official registry, streamable HTTP)
