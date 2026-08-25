@@ -44,6 +44,10 @@ a DOI, an official registry entry, daily conduct measurements, or a Bitcoin anch
 54 requirements we openly mark <b>unconfirmed</b> · 22,636 servers walked before we measured ourselves · nobody hand-picks a single row.
 </sub></p>
 
+<p align="center"><sub>
+<b>Built in construction — the method didn't stay there.</b> The same source-ranked, "unconfirmed-stays-unconfirmed" discipline now covers <b>home-visit nursing</b> reimbursement (JHNRD, already public). First nursing endpoint: <b>October 2026</b>.
+</sub></p>
+
 ---
 
 ## Quick start — use these servers in 30 seconds
