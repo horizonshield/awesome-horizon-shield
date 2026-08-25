@@ -12,12 +12,12 @@
 - JIDEC, Bitcoin-anchored public verification ledger: https://ledger.horizonshield.dev/llms.txt
 
 ## Public MCP servers (official registry, streamable HTTP, key-less, read-only)
-- io.github.ogasurfproject-jpg/horizon-shield — KIRA fair-price audit — https://mcp.horizonshield.dev/mcp
-- io.github.ogasurfproject-jpg/hs-hearing — YAKUMO verified contractor directory — https://hearing.horizonshield.dev/mcp
-- io.github.ogasurfproject-jpg/horizon-shield-webmcp — KIRA intake desk — https://web.horizonshield.dev/mcp
-- io.github.ogasurfproject-jpg/jidec — ledger citation and verification — https://jidec.horizonshield.dev/mcp
-- io.github.ogasurfproject-jpg/jhnrd — reimbursement rules with sources, key-less read-only — https://jhnrd-mcp.oga-surf-project.workers.dev/mcp
-- io.github.ogasurfproject-jpg/hs-verify-gate — the measuring gate, measures itself — https://gate.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/horizon-shield, KIRA fair-price audit, https://mcp.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/hs-hearing, YAKUMO verified contractor directory, https://hearing.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/horizon-shield-webmcp, KIRA intake desk, https://web.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/jidec, ledger citation and verification, https://jidec.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/jhnrd, reimbursement rules with sources, key-less read-only, https://jhnrd-mcp.oga-surf-project.workers.dev/mcp
+- io.github.ogasurfproject-jpg/hs-verify-gate, the measuring gate, measures itself, https://gate.horizonshield.dev/mcp
 
 ## Verification layer
 - MCP Conduct Register (rows chosen by nobody, rebuilt daily, DOI 10.5281/zenodo.21970931): https://github.com/ogasurfproject-jpg/mcp-conduct-register
@@ -33,11 +33,11 @@
 ## Get listed (contractors and operators)
 - The only condition is passing the independent KIRA fair-price audit (checks estimates against 65,520 JCCDB items). No pass, no listing.
 - On passing you get your own MCP endpoint https://p0NN.horizonshield.dev/mcp answering in your name, plus a public daily conduct history you cannot edit.
-- Apply: open a "Request a listing" issue — https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=request-listing.yml
+- Apply: open a "Request a listing" issue, https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=request-listing.yml
 - Guide: https://github.com/ogasurfproject-jpg/awesome-horizon-shield/blob/main/CONTRIBUTING.md
 
 ## Falsify us
-- Found a row you can't verify or a number that won't reproduce? Open a "Falsification report" — https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=falsification.yml
+- Found a row you can't verify or a number that won't reproduce? Open a "Falsification report", https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=falsification.yml
 - Confirmed findings are kept in the open, with credit. The code has no route to quietly drop them.
 
 ## Embed the live measurement

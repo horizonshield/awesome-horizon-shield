@@ -76,7 +76,7 @@
       "registry": "io.github.ogasurfproject-jpg/jhnrd",
       "endpoint": "https://jhnrd-mcp.oga-surf-project.workers.dev/mcp",
       "role": "reimbursement rules with sources",
-      "never_says": "算定できます — returns requirements and sources, never the judgement; enforced by 72 automated checks"
+      "never_says": "算定できます, returns requirements and sources, never the judgement; enforced by 72 automated checks"
     },
     {
       "registry": "io.github.ogasurfproject-jpg/hs-verify-gate",

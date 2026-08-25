@@ -1,5 +1,5 @@
 name: Request a listing (contractor / operator)
-description: Apply to be measured and — if you pass the independent KIRA audit — listed with your own verified endpoint.
+description: Apply to be measured and, if you pass the independent KIRA audit, listed with your own verified endpoint.
 title: "[Listing] <your company name>"
 labels: ["listing-request"]
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         **The one condition is passing the independent KIRA fair-price audit. No pass, no listing.**
-        Nothing here promises a price or a result — a person (担当: 大賀) reads every request and replies.
+        Nothing here promises a price or a result, a person (担当: 大賀) reads every request and replies.
         載る条件は独立したKIRA監査を通ること。自動返信は料金も結果も約束しません。担当（大賀）が確認します。
   - type: input
     id: company

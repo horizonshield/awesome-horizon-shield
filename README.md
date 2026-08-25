@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/logo.png" width="220" alt="Awesome HORIZON SHIELD — the eye anyone can check">
+  <img src="assets/logo.png" width="220" alt="Awesome HORIZON SHIELD, the eye anyone can check">
 </p>
 
 <h1 align="center">Awesome HORIZON SHIELD</h1>
 
 <p align="center">
-<b>The complete inventory of databases, MCP servers and verification ledgers operated by The HORIZONs K.K. (Japan) — every row checkable by anyone.</b><br>
+<b>The complete inventory of databases, MCP servers and verification ledgers operated by The HORIZONs K.K. (Japan). Every row checkable by anyone.</b><br>
 <sub>The HORIZONs株式会社が運営する全システムの目録。全行、誰でも検証できます。</sub>
 </p>
 
@@ -17,7 +17,7 @@
 <a href="https://orcid.org/0009-0000-9180-903X"><img src="https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39" alt="ORCID"></a>
 <a href="https://gate.horizonshield.dev/register"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json" alt="Conduct verified today"></a>
 <a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fservers.json" alt="Endpoints measured"></a>
-<a href="https://shield.the-horizons-innovation.com/verify-directory/"><img src="https://img.shields.io/badge/verify%20directory-WEDJAT%20live-48d0dc" alt="WEDJAT verify directory — live"></a>
+<a href="https://shield.the-horizons-innovation.com/verify-directory/"><img src="https://img.shields.io/badge/verify%20directory-WEDJAT%20live-48d0dc" alt="WEDJAT verify directory, live"></a>
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License"></a>
 </p>
 
@@ -33,8 +33,7 @@
 </p>
 
 This is **not** a neutral "awesome list". It is our own inventory, and we say so up front.
-What makes it worth reading is that **every row ships with a way for a stranger to check it** —
-a DOI, an official registry entry, daily conduct measurements, or a Bitcoin anchor.
+What makes it worth reading is that **every row ships with a way for a stranger to check it**: a DOI, an official registry entry, daily conduct measurements, or a Bitcoin anchor.
 
 **We only list what you don't have to trust.**
 <sub>信じなくていいものだけを、載せる。</sub>
@@ -45,12 +44,12 @@ a DOI, an official registry entry, daily conduct measurements, or a Bitcoin anch
 </sub></p>
 
 <p align="center"><sub>
-<b>Built in construction — the method didn't stay there.</b> The same source-ranked, "unconfirmed-stays-unconfirmed" discipline now covers <b>home-visit nursing</b> reimbursement (JHNRD, already public). First nursing endpoint: <b>October 2026</b>.
+<b>Built in construction. The method didn't stay there.</b> The same source-ranked, "unconfirmed-stays-unconfirmed" discipline now covers <b>home-visit nursing</b> reimbursement (JHNRD, already public). First nursing endpoint: <b>October 2026</b>.
 </sub></p>
 
 ---
 
-## Quick start — use these servers in 30 seconds
+## Quick start, use these servers in 30 seconds
 
 Every server below is **key-less and read-only**. No account, no API key, nothing to sign up for.
 
@@ -60,7 +59,7 @@ Every server below is **key-less and read-only**. No account, no API key, nothin
 [![Add JHNRD to VS Code](https://img.shields.io/badge/Add%20JHNRD%20to-VS%20Code-0098FF?logo=visualstudiocode)](https://insiders.vscode.dev/redirect/mcp/install?name=jhnrd-nursing-rules&config=%7B%22url%22%3A%20%22https%3A%2F%2Fjhnrd-mcp.oga-surf-project.workers.dev%2Fmcp%22%7D)
 
 <details>
-<summary><b>Claude Desktop / Claude Code / any MCP client — paste this</b></summary>
+<summary><b>Claude Desktop / Claude Code / any MCP client, paste this</b></summary>
 
 ```json
 {
@@ -106,7 +105,7 @@ Read the two columns and decide for yourself which one you'd trust with a price,
 | **Can you buy your way in** | Sometimes, quietly | **The code contains no route** to add or remove a row for money |
 | **An unflattering fact** | Quietly never gets added | **Stays.** Records that embarrass the operator are retained by design |
 | **How a stranger checks a row** | They mostly can't | **One `curl`.** Every row carries its own verification path |
-| **Who the author is** | Often anonymous, no stake disclosed | The HORIZONs K.K. — **sells services to these industries and says so, up top** |
+| **Who the author is** | Often anonymous, no stake disclosed | The HORIZONs K.K., **sells services to these industries and says so, up top** |
 
 <sub>普通のawesome listは「人気投票＋見栄え」。この目録は逆の掟でできている。行は手で選ばない・金で載らない・都合の悪い記録も残す・全行に確かめる道を付ける。</sub>
 
@@ -117,12 +116,12 @@ Read the two columns and decide for yourself which one you'd trust with a price,
 | | What it is | Scale | Verify it yourself | License |
 |---|---|---|---|---|
 | **[JCCDB](https://github.com/ogasurfproject-jpg/japan-construction-cost-database)**<br>Japan Construction Cost Database | Real construction & renovation prices in Japan, plus measured overcharging: **avg ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess)** | **65,520 items** | [DOI 10.5281/zenodo.21898745](https://doi.org/10.5281/zenodo.21898745) · [paper 10.31224/7007](https://doi.org/10.31224/7007) · Bitcoin block #949356 | CC BY 4.0 |
-| **[JHNRD](https://github.com/ogasurfproject-jpg/jhnrd)**<br>Japan Home-visit Nursing Reimbursement Database | Reimbursement rules for home-visit nursing. Not the numbers — **a record of where every number came from**, each source ranked statute / agency / secondary | **33 billing items · 68 requirements** · 26 sources (11 statute) · **54 requirements explicitly marked unconfirmed** · 3 conflicts kept open · 9 searches-that-found-nothing recorded | [DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722) · [COI disclosure](https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md) · CI fails if the disclosure is removed | CC BY 4.0 |
-| **[JIDEC](https://ledger.horizonshield.dev/llms.txt)**<br>Public verification ledger (NENRIN) | Estimate-audit records anchored to Bitcoin. **The operator cannot alter or delete them** | — | OpenTimestamps · every record's SHA-256 is recomputable | open read |
+| **[JHNRD](https://github.com/ogasurfproject-jpg/jhnrd)**<br>Japan Home-visit Nursing Reimbursement Database | Reimbursement rules for home-visit nursing. Not the numbers, **a record of where every number came from**, each source ranked statute / agency / secondary | **33 billing items · 68 requirements** · 26 sources (11 statute) · **54 requirements explicitly marked unconfirmed** · 3 conflicts kept open · 9 searches-that-found-nothing recorded | [DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722) · [COI disclosure](https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md) · CI fails if the disclosure is removed | CC BY 4.0 |
+| **[JIDEC](https://ledger.horizonshield.dev/llms.txt)**<br>Public verification ledger (NENRIN) | Estimate-audit records anchored to Bitcoin. **The operator cannot alter or delete them** |, | OpenTimestamps · every record's SHA-256 is recomputable | open read |
 
 JHNRD's design rules: what cannot be confirmed stays `confirmed:false`. Conflicts keep both claims.
 Searches that found nothing are recorded too. Reading one source twice never counts as two sources agreeing.
-The counts above are JHNRD's own (`status.json`, emitted by its `tools/validate.py`) — we quote them, we don't recount.
+The counts above are JHNRD's own (`status.json`, emitted by its `tools/validate.py`), we quote them, we don't recount.
 <sub>確認できないものは未確認のまま出す。矛盾は両論のまま。探して無かったことも記録する。数はオーナー側の数字を引用する。</sub>
 
 ---
@@ -137,45 +136,45 @@ All listed in the [official MCP registry](https://registry.modelcontextprotocol.
 | **YAKUMO verified contractor directory** | `io.github.ogasurfproject-jpg/hs-hearing` | `https://hearing.horizonshield.dev/mcp` | Returns only KIRA-audited contractors. **Never returns prices. Unverified stores are never shown (fail-closed)** |
 | **KIRA intake desk (WebMCP)** | `io.github.ogasurfproject-jpg/horizon-shield-webmcp` | `https://web.horizonshield.dev/mcp` | Renovation intake; embeds on any site with one `<script>` line |
 | **JIDEC ledger** | `io.github.ogasurfproject-jpg/jidec` | `https://jidec.horizonshield.dev/mcp` | Cites audit records and shows how to re-verify them independently. **Requires no trust** |
-| **JHNRD public MCP** | `io.github.ogasurfproject-jpg/jhnrd` | `https://jhnrd-mcp.oga-surf-project.workers.dev/mcp` | Key-less, read-only. Returns requirements and sources. **Never says "you can bill this"** — it returns evidence, never the judgement; 72 automated checks enforce this on every deploy |
+| **JHNRD public MCP** | `io.github.ogasurfproject-jpg/jhnrd` | `https://jhnrd-mcp.oga-surf-project.workers.dev/mcp` | Key-less, read-only. Returns requirements and sources. **Never says "you can bill this"**, it returns evidence, never the judgement; 72 automated checks enforce this on every deploy |
 | **Verification gate** | `io.github.ogasurfproject-jpg/hs-verify-gate` | `https://gate.horizonshield.dev/mcp` | The instrument that measures all of the above daily. **Measures itself too** |
 
 ---
 
-## Join — put your name on a row you earned
+## Join, put your name on a row you earned
 
 The only way onto this list is the one thing you can't fake: **an audit you didn't run.**
 
-**For contractors & operators.** Pass the independent **KIRA** fair-price audit — it checks your estimates against the 65,520 JCCDB items and flags padding, using the same instrument as every row above. Pass, and you receive:
+**For contractors & operators.** Pass the independent **KIRA** fair-price audit, it checks your estimates against the 65,520 JCCDB items and flags padding, using the same instrument as every row above. Pass, and you receive:
 
 - your own MCP endpoint, `https://p0NN.horizonshield.dev/mcp`, that answers **in your name**;
-- a **public conduct history the gate rebuilds daily — that you cannot edit**;
+- a **public conduct history the gate rebuilds daily, that you cannot edit**;
 - a place on a directory a homeowner can *check*, not just read.
 
 **No pass, no listing.** That is the whole value: your customers get a page about you that **you can't spin**, which is exactly why it is believed.
 
 | Member | Status |
 |---|---|
-| No.001 Reform Shokunin Co., Ltd. (Aichi) | `https://p001.horizonshield.dev/mcp` — [conduct history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) |
-| No.002 Mineo Toyo Juki Co., Ltd. (Kanagawa) | `https://p002.horizonshield.dev/mcp` — [conduct history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) |
-| No.003 (home-visit nursing, launching Oct 2026) | In preparation — the same verification discipline applied to medical & long-term-care billing |
+| No.001 Reform Shokunin Co., Ltd. (Aichi) | `https://p001.horizonshield.dev/mcp`, [conduct history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) |
+| No.002 Mineo Toyo Juki Co., Ltd. (Kanagawa) | `https://p002.horizonshield.dev/mcp`, [conduct history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) |
+| No.003 (home-visit nursing, launching Oct 2026) | In preparation, the same verification discipline applied to medical & long-term-care billing |
 
 **Start here:** read [CONTRIBUTING.md](./CONTRIBUTING.md), or open a [**Request listing**](../../issues/new?template=request-listing.yml) issue. The desk (担当: 大賀) picks it up from there.
 <sub>載る道はひとつ。自分では動かせない監査を通ること。通れば、あなたの名前で答える口と、あなたが編集できない日次の素行記録が付く。だから信じてもらえる。</sub>
 
 ---
 
-## Falsify us — the standing invitation
+## Falsify us, the standing invitation
 
 We would rather publish a mistake than hide one.
 
-Find a row you can't verify, a number that won't reproduce, or a source that doesn't say what we claim —
+Find a row you can't verify, a number that won't reproduce, or a source that doesn't say what we claim,
 open a [**Falsification report**](../../issues/new?template=falsification.yml).
 
 - Confirmed findings are **kept in the open, with credit.** The code has no route to quietly drop them.
 - This isn't a bounty paid in money. It's paid in the only currency this list runs on: **being checkable.**
 
-Nothing here asks to be trusted — so come try to break it.
+Nothing here asks to be trusted, so come try to break it.
 <sub>誤りは隠すより載せる。確かめられない行・再現しない数字・出典と食い違う記述を見つけたら、Falsification report を開いてほしい。確認できた指摘はクレジット付きで残す。壊してみろ、が唯一の保証。</sub>
 
 ---
@@ -184,15 +183,15 @@ Nothing here asks to be trusted — so come try to break it.
 
 This is what separates this list from an ordinary awesome list.
 
-- **[MCP Conduct Register](https://github.com/ogasurfproject-jpg/mcp-conduct-register)** — a machine-generated **record of conduct** for the servers above, rebuilt daily from a public API. **Nobody chooses the rows.** Placement cannot be bought. Records that embarrass the operator are retained, because the code contains no route for removing them. [DOI 10.5281/zenodo.21970931](https://doi.org/10.5281/zenodo.21970931)
-- **[MCP Registry Survey](https://github.com/ogasurfproject-jpg/mcp-registry-survey)** — a full walk of all **22,636 servers** in the official MCP registry (2026-08-19). We measured the world before measuring ourselves
-- **[Verification directory](https://shield.the-horizons-innovation.com/verify-directory/)** — the human-readable entrance to all of the above
+- **[MCP Conduct Register](https://github.com/ogasurfproject-jpg/mcp-conduct-register)**, a machine-generated **record of conduct** for the servers above, rebuilt daily from a public API. **Nobody chooses the rows.** Placement cannot be bought. Records that embarrass the operator are retained, because the code contains no route for removing them. [DOI 10.5281/zenodo.21970931](https://doi.org/10.5281/zenodo.21970931)
+- **[MCP Registry Survey](https://github.com/ogasurfproject-jpg/mcp-registry-survey)**, a full walk of all **22,636 servers** in the official MCP registry (2026-08-19). We measured the world before measuring ourselves
+- **[Verification directory](https://shield.the-horizons-innovation.com/verify-directory/)**, the human-readable entrance to all of the above
 
 ### Live conduct, rebuilt daily (nobody picks the rows)
 
 <!-- LIVE:START -->
 _This block is written by [`scripts/refresh.py`](./scripts/refresh.py) from the public register,
-once a day. Until its next run it stays as-is rather than guessing — a stale date is honest, an invented row is not._
+once a day. Until its next run it stays as-is rather than guessing, a stale date is honest, an invented row is not._
 <!-- LIVE:END -->
 
 ### Verify any row yourself
@@ -237,7 +236,7 @@ Machine-readable: [`catalog.json`](./catalog.json) · [`llms.txt`](./llms.txt)
 
 Operated by The HORIZONs K.K., supervised by Toshikatsu Oga (30 years in construction,
 [ORCID 0009-0000-9180-903X](https://orcid.org/0009-0000-9180-903X)).
-**We sell paid services** to the industries these datasets describe — which means this
+**We sell paid services** to the industries these datasets describe, which means this
 inventory could serve our interests. That is exactly why every row is published together
 with a way to check it **without trusting us**. JHNRD's disclosure lives in
 [GOVERNANCE.md](https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md),
@@ -247,7 +246,7 @@ and its CI fails if the disclosure is ever removed.
 ## Cite this
 
 GitHub renders a **"Cite this repository"** button from [`CITATION.cff`](./CITATION.cff).
-Each dataset also has its own DOI, listed in the table above — cite the dataset, not this index,
+Each dataset also has its own DOI, listed in the table above, cite the dataset, not this index,
 when you are citing the data itself.
 
 ## License

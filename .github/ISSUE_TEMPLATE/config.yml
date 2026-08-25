@@ -2,7 +2,7 @@ blank_issues_enabled: true
 contact_links:
   - name: See today's raw measurements
     url: https://gate.horizonshield.dev/register
-    about: The live conduct register — nobody picks the rows. Check any row before you file.
+    about: The live conduct register, nobody picks the rows. Check any row before you file.
   - name: The catalog website
     url: https://ogasurfproject-jpg.github.io/awesome-horizon-shield/
     about: The human-readable inventory, with every verification path.
