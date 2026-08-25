@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Awesome HORIZON SHIELD: the complete, checkable inventory of HORIZON SHIELD systems"
+message: "If you use this catalog, please cite it."
+type: dataset
+authors:
+  - family-names: Oga
+    given-names: Toshikatsu
+    orcid: "https://orcid.org/0009-0000-9180-903X"
+    affiliation: "The HORIZONs K.K."
+repository-code: "https://github.com/ogasurfproject-jpg/awesome-horizon-shield"
+url: "https://ogasurfproject-jpg.github.io/awesome-horizon-shield/"
+abstract: >-
+  Every open dataset, public MCP server and verification ledger operated by
+  The HORIZONs K.K. (Japan), each row published together with a way for a
+  stranger to check it: a DOI, an official MCP registry entry, daily conduct
+  measurements, or a Bitcoin anchor. The operator sells services to the
+  industries these datasets describe and discloses it. Nothing here asks to be
+  trusted.
+keywords:
+  - model-context-protocol
+  - mcp
+  - open-data
+  - japan
+  - construction-cost
+  - home-visit-nursing
+  - verification
+  - conflict-of-interest
+license: CC-BY-4.0

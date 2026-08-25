@@ -15,7 +15,17 @@
 <a href="https://doi.org/10.5281/zenodo.22083722"><img src="https://img.shields.io/badge/JHNRD-10.5281%2Fzenodo.22083722-1682D4" alt="JHNRD DOI"></a>
 <a href="https://doi.org/10.5281/zenodo.21970931"><img src="https://img.shields.io/badge/Conduct%20Register-10.5281%2Fzenodo.21970931-1682D4" alt="Register DOI"></a>
 <a href="https://orcid.org/0009-0000-9180-903X"><img src="https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39" alt="ORCID"></a>
-<a href="https://gate.horizonshield.dev/register"><img src="https://img.shields.io/badge/conduct-measured%20daily-2ea043" alt="Measured daily"></a>
+<a href="https://gate.horizonshield.dev/register"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json" alt="Conduct verified today"></a>
+<a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fservers.json" alt="Endpoints measured"></a>
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License"></a>
+</p>
+
+<p align="center">
+<b><a href="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/">Website</a></b> ·
+<a href="#quick-start--use-these-servers-in-30-seconds">Quick start</a> ·
+<a href="#4-live-conduct-rebuilt-daily-nobody-picks-the-rows">Live conduct</a> ·
+<a href="./catalog.json">catalog.json</a> ·
+<a href="./llms.txt">llms.txt</a>
 </p>
 
 This is **not** a neutral "awesome list". It is our own inventory, and we say so up front.
@@ -24,6 +34,50 @@ a DOI, an official registry entry, daily conduct measurements, or a Bitcoin anch
 
 **We only list what you don't have to trust.**
 <sub>信じなくていいものだけを、載せる。</sub>
+
+---
+
+## Quick start — use these servers in 30 seconds
+
+Every server below is **key-less and read-only**. No account, no API key, nothing to sign up for.
+
+[![Add KIRA to Cursor](https://img.shields.io/badge/Add%20to-Cursor-000000?logo=cursor)](cursor://anysphere.cursor-deeplink/mcp/install?name=horizon-shield-kira&config=eyJ1cmwiOiAiaHR0cHM6Ly9tY3AuaG9yaXpvbnNoaWVsZC5kZXYvbWNwIn0=)
+[![Add KIRA to VS Code](https://img.shields.io/badge/Add%20to-VS%20Code-0098FF?logo=visualstudiocode)](https://insiders.vscode.dev/redirect/mcp/install?name=horizon-shield-kira&config=%7B%22url%22%3A%20%22https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp%22%7D)
+[![Add JHNRD to Cursor](https://img.shields.io/badge/Add%20JHNRD%20to-Cursor-000000?logo=cursor)](cursor://anysphere.cursor-deeplink/mcp/install?name=jhnrd-nursing-rules&config=eyJ1cmwiOiAiaHR0cHM6Ly9qaG5yZC1tY3Aub2dhLXN1cmYtcHJvamVjdC53b3JrZXJzLmRldi9tY3AifQ==)
+[![Add JHNRD to VS Code](https://img.shields.io/badge/Add%20JHNRD%20to-VS%20Code-0098FF?logo=visualstudiocode)](https://insiders.vscode.dev/redirect/mcp/install?name=jhnrd-nursing-rules&config=%7B%22url%22%3A%20%22https%3A%2F%2Fjhnrd-mcp.oga-surf-project.workers.dev%2Fmcp%22%7D)
+
+<details>
+<summary><b>Claude Desktop / Claude Code / any MCP client — paste this</b></summary>
+
+```json
+{
+  "mcpServers": {
+    "horizon-shield-kira": { "url": "https://mcp.horizonshield.dev/mcp" },
+    "yakumo-contractors":  { "url": "https://hearing.horizonshield.dev/mcp" },
+    "jhnrd-nursing-rules": { "url": "https://jhnrd-mcp.oga-surf-project.workers.dev/mcp" },
+    "jidec-ledger":        { "url": "https://jidec.horizonshield.dev/mcp" }
+  }
+}
+```
+
+Then ask your agent, in plain language:
+
+- *"Is ¥1,800,000 a fair price to repaint a 30-tsubo house in Japan?"* → KIRA answers with JCCDB items and red flags, never with a verdict on the contractor
+- *"What are the requirements for 看護体制強化加算 (I), and which of them are unconfirmed?"* → JHNRD answers with the statute text **and tells you what it could not confirm**
+- *"Show me the conduct history of this MCP endpoint."* → JIDEC hands you a SHA-256 you can recompute yourself
+
+</details>
+
+<details>
+<summary><b>Try it with one curl, no client at all</b></summary>
+
+```bash
+curl -s https://jhnrd-mcp.oga-surf-project.workers.dev/mcp \
+  -H 'content-type: application/json' \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
+```
+
+</details>
 
 ---
 
@@ -75,6 +129,13 @@ This is what separates this list from an ordinary awesome list.
 - **[MCP Registry Survey](https://github.com/ogasurfproject-jpg/mcp-registry-survey)** — a full walk of all **22,636 servers** in the official MCP registry (2026-08-19). We measured the world before measuring ourselves
 - **[Verification directory](https://shield.the-horizons-innovation.com/verify-directory/)** — the human-readable entrance to all of the above
 
+### Live conduct, rebuilt daily (nobody picks the rows)
+
+<!-- LIVE:START -->
+_This block is written by [`scripts/refresh.py`](./scripts/refresh.py) from the public register,
+once a day. Until its first run it stays empty rather than guessing._
+<!-- LIVE:END -->
+
 ### Verify any row yourself
 
 ```bash
@@ -112,6 +173,12 @@ with a way to check it **without trusting us**. JHNRD's disclosure lives in
 [GOVERNANCE.md](https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md),
 and its CI fails if the disclosure is ever removed.
 <sub>弊社は有償サービスを販売しています。だからこそ全行に、弊社を信じずに確かめる方法を付けています。</sub>
+
+## Cite this
+
+GitHub renders a **"Cite this repository"** button from [`CITATION.cff`](./CITATION.cff).
+Each dataset also has its own DOI, listed in the table above — cite the dataset, not this index,
+when you are citing the data itself.
 
 ## License
 

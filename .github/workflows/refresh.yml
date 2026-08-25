@@ -1,0 +1,49 @@
+# Rebuild the live block and the badges from the public gate API, once a day.
+#
+# Why this exists:
+#   A list that was true once looks the same as a list that is true now.
+#   The difference is a date, and a date nobody updates is worse than no date.
+#   So the repository updates itself and stamps the hour it did.
+#
+#   If the API is unreachable the script changes nothing and exits 0.
+#   A stale table is honest; an invented one is not.
+name: refresh
+
+on:
+  schedule:
+    - cron: "20 21 * * *"   # 06:20 JST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/refresh.py"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild from the register
+        run: python3 scripts/refresh.py
+
+      - name: Commit only if something actually changed
+        run: |
+          if git diff --quiet; then
+            echo "nothing changed" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "horizon-shield-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add README.md badges
+          git commit -m "refresh: live conduct block and badges from the public register"
+          git push
+          echo "refreshed" >> "$GITHUB_STEP_SUMMARY"

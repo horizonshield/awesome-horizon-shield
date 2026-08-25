@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome HORIZON SHIELD — every system we run, checkable by anyone</title>
+<meta name="description" content="The complete inventory of open datasets, public MCP servers and verification ledgers operated by The HORIZONs K.K. (Japan). Each row ships with a DOI, an official MCP registry entry, daily conduct measurements, or a Bitcoin anchor. Nothing here asks to be trusted.">
+<link rel="canonical" href="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Awesome HORIZON SHIELD">
+<meta property="og:description" content="We only list what you don't have to trust. 3 open datasets, 6 public MCP servers, daily conduct measurements.">
+<meta property="og:image" content="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/logo.png">
+<meta property="og:url" content="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="logo.png">
+<style>
+:root{--bg:#06090e;--panel:#0d1219;--line:#1b2431;--ink:#e9eef6;--dim:#93a1b5;--gold:#deb25c;--teal:#48d0dc;--ok:#3fb950}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Noto Sans JP",sans-serif}
+.grid{position:fixed;inset:0;background-image:linear-gradient(#0b0f16 1px,transparent 1px),linear-gradient(90deg,#0b0f16 1px,transparent 1px);background-size:64px 64px;z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1;max-width:1000px;margin:0 auto;padding:0 22px 90px}
+header{text-align:center;padding:70px 0 40px}
+header img{width:180px;filter:drop-shadow(0 0 40px rgba(72,208,220,.25))}
+h1{font-size:clamp(32px,6vw,54px);margin:22px 0 6px;letter-spacing:-.02em}
+h1 .t{color:var(--teal)}h1 .g{color:var(--gold)}
+.claim{font-size:clamp(19px,3vw,26px);font-weight:700;margin:18px auto 6px;max-width:640px}
+.sub{color:var(--dim);max-width:660px;margin:0 auto}
+.badges{margin:26px 0 8px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.badges img{height:20px}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:13px 24px;border-radius:10px;text-decoration:none;font-weight:700;font-size:15px}
+.btn.p{background:var(--teal);color:#04222a}
+.btn.s{border:1px solid var(--line);color:var(--ink)}
+h2{font-size:26px;margin:56px 0 6px;letter-spacing:-.01em}
+h2 span{color:var(--gold)}
+.lede{color:var(--dim);margin:0 0 20px}
+.card{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:20px 22px;margin:14px 0}
+.card h3{margin:0 0 4px;font-size:19px}
+.card h3 a{color:var(--teal);text-decoration:none}
+.card .meta{color:var(--dim);font-size:14px;margin:8px 0 0}
+.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:12px;color:var(--dim);margin:6px 6px 0 0}
+.tag.ok{border-color:#1a4a2e;color:var(--ok)}
+pre{background:#080c12;border:1px solid var(--line);border-radius:12px;padding:16px;overflow-x:auto;font-size:13.5px;line-height:1.6}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.note{border-left:3px solid var(--gold);padding:2px 0 2px 16px;color:var(--dim);margin:22px 0}
+footer{margin-top:70px;padding-top:26px;border-top:1px solid var(--line);color:var(--dim);font-size:14px}
+a{color:var(--teal)}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "@id": "https://ogasurfproject-jpg.github.io/awesome-horizon-shield/#catalog",
+  "name": "Awesome HORIZON SHIELD",
+  "description": "The complete inventory of open datasets, public MCP servers and verification ledgers operated by The HORIZONs K.K. Each row is published with a way to check it without trusting the operator.",
+  "url": "https://ogasurfproject-jpg.github.io/awesome-horizon-shield/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "The HORIZONs K.K.",
+    "url": "https://shield.the-horizons-innovation.com/",
+    "founder": {"@type": "Person", "name": "Toshikatsu Oga", "identifier": "https://orcid.org/0009-0000-9180-903X"}
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "JCCDB — Japan Construction Cost Database",
+      "description": "65,520 real construction and renovation cost items in Japan, with measured overcharging.",
+      "identifier": "https://doi.org/10.5281/zenodo.21898745",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
+    },
+    {
+      "@type": "Dataset",
+      "name": "JHNRD — Japan Home-visit Nursing Reimbursement Database",
+      "description": "33 billing items and 68 requirements for Japanese home-visit nursing, each with a ranked source. 61 requirements are explicitly marked unconfirmed.",
+      "identifier": "https://doi.org/10.5281/zenodo.22083722",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://github.com/ogasurfproject-jpg/jhnrd"
+    },
+    {
+      "@type": "Dataset",
+      "name": "MCP Conduct Register",
+      "description": "A machine generated record of how MCP servers behaved when measured. Rows are chosen by nobody.",
+      "identifier": "https://doi.org/10.5281/zenodo.21970931",
+      "url": "https://github.com/ogasurfproject-jpg/mcp-conduct-register"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="grid"></div>
+<div class="wrap">
+
+<header>
+  <img src="logo.png" alt="Awesome HORIZON SHIELD">
+  <h1><span class="t">Awesome</span> <span class="g">HORIZON SHIELD</span></h1>
+  <p class="claim">We only list what you don't have to trust.</p>
+  <p class="sub">Every open dataset, public MCP server and verification ledger operated by
+  The HORIZONs&nbsp;K.K. — each row published with a way for a stranger to check it.</p>
+  <div class="badges">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json" alt="conduct verified">
+    <img src="https://img.shields.io/badge/JCCDB-10.5281%2Fzenodo.21898745-1682D4" alt="JCCDB DOI">
+    <img src="https://img.shields.io/badge/JHNRD-10.5281%2Fzenodo.22083722-1682D4" alt="JHNRD DOI">
+    <img src="https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39" alt="ORCID">
+  </div>
+  <div class="cta">
+    <a class="btn p" href="https://github.com/ogasurfproject-jpg/awesome-horizon-shield">Open the catalog on GitHub</a>
+    <a class="btn s" href="https://gate.horizonshield.dev/register">See today's raw measurements</a>
+  </div>
+</header>
+
+<div class="note">
+This is <b>not</b> a neutral list. It is our own inventory, and we say so up front.
+We sell paid services to the industries these datasets describe. That is exactly why every row
+ships with a way to check it <b>without trusting us</b>.
+</div>
+
+<h2>Open <span>datasets</span></h2>
+<p class="lede">Published under CC BY 4.0, each with a DOI you can cite.</p>
+
+<div class="card">
+  <h3><a href="https://github.com/ogasurfproject-jpg/japan-construction-cost-database">JCCDB — Japan Construction Cost Database</a></h3>
+  <p>Real construction and renovation prices in Japan, plus measured overcharging:
+  <b>an average of ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess)</b>.</p>
+  <span class="tag">65,520 items</span><span class="tag">CC BY 4.0</span>
+  <span class="tag ok">DOI 10.5281/zenodo.21898745</span><span class="tag ok">Bitcoin block #949356</span>
+</div>
+
+<div class="card">
+  <h3><a href="https://github.com/ogasurfproject-jpg/jhnrd">JHNRD — Japan Home-visit Nursing Reimbursement Database</a></h3>
+  <p>Reimbursement rules for home-visit nursing. Not the numbers — <b>a record of where every
+  number came from</b>, each source ranked statute / agency / secondary. What cannot be confirmed
+  stays marked unconfirmed. Conflicts keep both claims. Searches that found nothing are recorded too.</p>
+  <span class="tag">33 billing items · 68 requirements</span>
+  <span class="tag">26 sources (11 statute)</span>
+  <span class="tag ok">61 requirements openly marked unconfirmed</span>
+  <span class="tag ok">DOI 10.5281/zenodo.22083722</span>
+</div>
+
+<div class="card">
+  <h3><a href="https://ledger.horizonshield.dev/llms.txt">JIDEC — public verification ledger</a></h3>
+  <p>Estimate-audit records anchored to Bitcoin. <b>The operator cannot alter or delete them.</b>
+  Every record's SHA-256 is recomputable from the published bytes.</p>
+  <span class="tag">OpenTimestamps</span><span class="tag ok">trust-free verification</span>
+</div>
+
+<h2>Public <span>MCP servers</span></h2>
+<p class="lede">All listed in the official MCP registry. Key-less, read-only, streamable HTTP.
+Measured every day by an instrument that also measures itself.</p>
+
+<pre><code>{
+  "mcpServers": {
+    "horizon-shield-kira": { "url": "https://mcp.horizonshield.dev/mcp" },
+    "yakumo-contractors":  { "url": "https://hearing.horizonshield.dev/mcp" },
+    "jhnrd-nursing-rules": { "url": "https://jhnrd-mcp.oga-surf-project.workers.dev/mcp" },
+    "jidec-ledger":        { "url": "https://jidec.horizonshield.dev/mcp" }
+  }
+}</code></pre>
+
+<div class="card">
+  <p class="meta">What they refuse to say is the point:</p>
+  <p>KIRA returns fair-price evidence and red flags but <b>never dictates a "correct" price</b>.
+  YAKUMO <b>never returns prices</b>, and an unverified contractor is never shown to a homeowner.
+  JHNRD returns the statute text and its own uncertainty but <b>never says "you can bill this"</b> —
+  72 automated checks enforce that on every deploy.</p>
+</div>
+
+<h2>The <span>verification layer</span></h2>
+<p class="lede">This is what separates this from an ordinary awesome list.</p>
+
+<div class="card">
+  <h3><a href="https://github.com/ogasurfproject-jpg/mcp-conduct-register">MCP Conduct Register</a></h3>
+  <p>A machine-generated record of conduct, rebuilt daily from a public API.
+  <b>Nobody chooses the rows.</b> Placement cannot be bought. Records that embarrass the operator
+  are retained, because the code contains no route for removing them.</p>
+  <span class="tag ok">DOI 10.5281/zenodo.21970931</span>
+</div>
+
+<div class="card">
+  <h3><a href="https://github.com/ogasurfproject-jpg/mcp-registry-survey">MCP Registry Survey</a></h3>
+  <p>A full walk of all <b>22,636 servers</b> in the official MCP registry (2026-08-19).
+  We measured the world before measuring ourselves.</p>
+</div>
+
+<h2>Check a row <span>yourself</span></h2>
+<pre><code>curl -s "https://gate.horizonshield.dev/register"
+curl -s "https://gate.horizonshield.dev/history?endpoint=https://mcp.horizonshield.dev/mcp"</code></pre>
+<p class="lede">Recompute the <code>record_sha256</code> from the published bytes and compare.
+If it disagrees, that disagreement is itself worth publishing.</p>
+
+<footer>
+  Operated by The HORIZONs K.K., supervised by Toshikatsu Oga
+  (<a href="https://orcid.org/0009-0000-9180-903X">ORCID 0009-0000-9180-903X</a>).
+  Catalog text CC BY 4.0 · <a href="https://github.com/ogasurfproject-jpg/awesome-horizon-shield">source</a> ·
+  <a href="https://shield.the-horizons-innovation.com">HORIZON SHIELD</a><br>
+  <span style="opacity:.7">信じなくていいものだけを、載せる。</span>
+</footer>
+
+</div>
+</body>
+</html>
