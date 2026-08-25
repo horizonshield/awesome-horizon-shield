@@ -1,0 +1,46 @@
+name: Falsification report
+description: Found a row you can't verify, a number that won't reproduce, or a source that doesn't match? Tell us. Confirmed findings are kept in the open, with credit.
+title: "[Falsify] <the claim you're challenging>"
+labels: ["falsification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We would rather publish a mistake than hide one. Show what you checked — the code has no route
+        to quietly drop a record that embarrasses us.
+        誤りは隠すより載せる。確認できた指摘はクレジット付きで残します。
+  - type: input
+    id: claim
+    attributes:
+      label: Which row or claim?
+      description: A quote from the catalog, or a link to the exact line.
+    validations:
+      required: true
+  - type: textarea
+    id: checked
+    attributes:
+      label: What did you check, and what did you get?
+      description: The command, DOI, statute reference, or recomputed record_sha256 — enough for us to reproduce it.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: instead
+    attributes:
+      label: What should the catalog say instead?
+    validations:
+      required: false
+  - type: input
+    id: credit
+    attributes:
+      label: How should we credit you? (optional)
+      placeholder: name / handle / "no credit"
+    validations:
+      required: false
+  - type: checkboxes
+    id: understand
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand a confirmed finding is kept in the open, with credit — it will not be hidden.
+          required: true

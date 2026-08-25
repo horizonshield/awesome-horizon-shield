@@ -112,5 +112,26 @@
     },
     "human_entry": "https://shield.the-horizons-innovation.com/verify-directory/"
   },
+  "not_a_normal_awesome_list": {
+    "rows_added_by": "nobody by hand; a server is measured and the register writes the row",
+    "placement_for_money": "no code path exists to add or remove a row for money",
+    "unflattering_records": "retained by design; no route to quietly drop them",
+    "author_stake": "The HORIZONs K.K. sells services to these industries and discloses it"
+  },
+  "participate": {
+    "get_listed": {
+      "who": "contractors, renovation firms, one-person shops, home-visit nursing operators",
+      "condition": "pass the independent KIRA fair-price audit (checks estimates against 65,520 JCCDB items); no pass, no listing",
+      "you_get": "your own MCP endpoint https://p0NN.horizonshield.dev/mcp answering in your name, plus a public daily conduct history you cannot edit",
+      "apply": "https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=request-listing.yml",
+      "guide": "https://github.com/ogasurfproject-jpg/awesome-horizon-shield/blob/main/CONTRIBUTING.md"
+    },
+    "falsify": {
+      "what": "report a row you cannot verify, a number that will not reproduce, or a source that does not match",
+      "open": "https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=falsification.yml",
+      "handling": "confirmed findings are kept in the open, with credit"
+    },
+    "embed_badge": "https://raw.githubusercontent.com/ogasurfproject-jpg/awesome-horizon-shield/main/badges/verified.json"
+  },
   "license": "CC-BY-4.0"
 }

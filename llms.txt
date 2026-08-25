@@ -4,13 +4,14 @@
 > The HORIZONs K.K. (Japan). This is the operator's own inventory, and it says so.
 > Every row carries a way to verify it without trusting the operator:
 > a DOI, an official MCP registry entry, daily conduct measurements, or a Bitcoin anchor.
+> Listing is earned by passing an independent audit, not bought; unflattering records are retained by design.
 
 ## Datasets
-- JCCDB, Japan Construction Cost Database: 65,520 items, CC BY 4.0, DOI 10.5281/zenodo.21898745. https://github.com/ogasurfproject-jpg/japan-construction-cost-database
-- JHNRD, Japan Home-visit Nursing Reimbursement Database: 33 items / 68 requirements, 54 explicitly unconfirmed, sources ranked statute/agency/secondary, CC BY 4.0, DOI 10.5281/zenodo.22083722. https://github.com/ogasurfproject-jpg/jhnrd
+- JCCDB, Japan Construction Cost Database: 65,520 items, CC BY 4.0, DOI 10.5281/zenodo.21898745. Measured overcharging averages ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess). https://github.com/ogasurfproject-jpg/japan-construction-cost-database
+- JHNRD, Japan Home-visit Nursing Reimbursement Database: 33 items / 68 requirements, 54 explicitly unconfirmed, sources ranked statute/agency/secondary, CC BY 4.0, DOI 10.5281/zenodo.22083722. Numbers are the owner's status.json, not recounted here. https://github.com/ogasurfproject-jpg/jhnrd
 - JIDEC, Bitcoin-anchored public verification ledger: https://ledger.horizonshield.dev/llms.txt
 
-## Public MCP servers (official registry, streamable HTTP)
+## Public MCP servers (official registry, streamable HTTP, key-less, read-only)
 - io.github.ogasurfproject-jpg/horizon-shield — KIRA fair-price audit — https://mcp.horizonshield.dev/mcp
 - io.github.ogasurfproject-jpg/hs-hearing — YAKUMO verified contractor directory — https://hearing.horizonshield.dev/mcp
 - io.github.ogasurfproject-jpg/horizon-shield-webmcp — KIRA intake desk — https://web.horizonshield.dev/mcp
@@ -22,6 +23,26 @@
 - MCP Conduct Register (rows chosen by nobody, rebuilt daily, DOI 10.5281/zenodo.21970931): https://github.com/ogasurfproject-jpg/mcp-conduct-register
 - Live register API: https://gate.horizonshield.dev/register
 - Full walk of the official MCP registry (22,636 servers, 2026-08-19): https://github.com/ogasurfproject-jpg/mcp-registry-survey
+
+## How this differs from a normal awesome list
+- Nobody adds a row by hand; a server is measured and the register writes the row.
+- Placement cannot be bought; the code has no route to add or remove a row for money.
+- Records that embarrass the operator are retained by design.
+- Every row ships with its own one-command verification path.
+
+## Get listed (contractors and operators)
+- The only condition is passing the independent KIRA fair-price audit (checks estimates against 65,520 JCCDB items). No pass, no listing.
+- On passing you get your own MCP endpoint https://p0NN.horizonshield.dev/mcp answering in your name, plus a public daily conduct history you cannot edit.
+- Apply: open a "Request a listing" issue — https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=request-listing.yml
+- Guide: https://github.com/ogasurfproject-jpg/awesome-horizon-shield/blob/main/CONTRIBUTING.md
+
+## Falsify us
+- Found a row you can't verify or a number that won't reproduce? Open a "Falsification report" — https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=falsification.yml
+- Confirmed findings are kept in the open, with credit. The code has no route to quietly drop them.
+
+## Embed the live measurement
+- Badge JSON (Shields endpoint schema): https://raw.githubusercontent.com/ogasurfproject-jpg/awesome-horizon-shield/main/badges/verified.json
+- It reads from the same public register, so it cannot be tilted in the operator's favor.
 
 ## Conflict of interest
 The operator sells paid services to the industries these datasets describe, and discloses it:

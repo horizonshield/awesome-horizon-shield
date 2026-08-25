@@ -8,30 +8,41 @@
 <link rel="canonical" href="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Awesome HORIZON SHIELD">
-<meta property="og:description" content="We only list what you don't have to trust. 3 open datasets, 6 public MCP servers, daily conduct measurements.">
+<meta property="og:description" content="We only list what you don't have to trust. 3 open datasets, 6 public MCP servers, daily conduct measurements — and a listing you earn, not buy.">
 <meta property="og:image" content="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/logo.png">
 <meta property="og:url" content="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="logo.png">
 <style>
-:root{--bg:#06090e;--panel:#0d1219;--line:#1b2431;--ink:#e9eef6;--dim:#93a1b5;--gold:#deb25c;--teal:#48d0dc;--ok:#3fb950}
+:root{--bg:#06090e;--panel:#0d1219;--panel2:#0a0f16;--line:#1b2431;--ink:#e9eef6;--dim:#93a1b5;--gold:#deb25c;--teal:#48d0dc;--ok:#3fb950;--red:#f0623f}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Noto Sans JP",sans-serif}
 .grid{position:fixed;inset:0;background-image:linear-gradient(#0b0f16 1px,transparent 1px),linear-gradient(90deg,#0b0f16 1px,transparent 1px);background-size:64px 64px;z-index:0;pointer-events:none}
+.glow{position:fixed;top:-20%;left:50%;transform:translateX(-50%);width:900px;height:520px;background:radial-gradient(closest-side,rgba(72,208,220,.16),transparent 70%);z-index:0;pointer-events:none;filter:blur(6px)}
 .wrap{position:relative;z-index:1;max-width:1000px;margin:0 auto;padding:0 22px 90px}
-header{text-align:center;padding:70px 0 40px}
-header img{width:180px;filter:drop-shadow(0 0 40px rgba(72,208,220,.25))}
-h1{font-size:clamp(32px,6vw,54px);margin:22px 0 6px;letter-spacing:-.02em}
+header{text-align:center;padding:64px 0 8px}
+header img{width:172px;filter:drop-shadow(0 0 40px rgba(72,208,220,.28))}
+h1{font-size:clamp(32px,6vw,56px);margin:22px 0 6px;letter-spacing:-.02em}
 h1 .t{color:var(--teal)}h1 .g{color:var(--gold)}
-.claim{font-size:clamp(19px,3vw,26px);font-weight:700;margin:18px auto 6px;max-width:640px}
+.claim{font-size:clamp(20px,3.4vw,30px);font-weight:800;margin:16px auto 6px;max-width:660px;letter-spacing:-.01em}
 .sub{color:var(--dim);max-width:660px;margin:0 auto}
-.badges{margin:26px 0 8px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.jp{color:var(--dim);opacity:.85}
+.badges{margin:24px 0 6px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
 .badges img{height:20px}
-.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
-.btn{display:inline-block;padding:13px 24px;border-radius:10px;text-decoration:none;font-weight:700;font-size:15px}
-.btn.p{background:var(--teal);color:#04222a}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-block;padding:13px 22px;border-radius:10px;text-decoration:none;font-weight:700;font-size:15px;transition:transform .1s ease,box-shadow .1s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn.p{background:var(--teal);color:#04222a;box-shadow:0 6px 24px rgba(72,208,220,.22)}
+.btn.g{background:var(--gold);color:#241a05;box-shadow:0 6px 24px rgba(222,178,92,.20)}
 .btn.s{border:1px solid var(--line);color:var(--ink)}
-h2{font-size:26px;margin:56px 0 6px;letter-spacing:-.01em}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:40px 0 8px}
+.stat{border:1px solid var(--line);border-radius:12px;background:linear-gradient(180deg,var(--panel),var(--panel2));padding:16px 12px;text-align:center}
+.stat b{display:block;font-size:clamp(18px,2.6vw,26px);letter-spacing:-.02em;color:var(--ink)}
+.stat.teal b{color:var(--teal)}.stat.gold b{color:var(--gold)}
+.stat span{display:block;font-size:11.5px;color:var(--dim);margin-top:6px;line-height:1.45}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}.stat:last-child{grid-column:1/-1}}
+h2{font-size:26px;margin:60px 0 6px;letter-spacing:-.01em}
 h2 span{color:var(--gold)}
 .lede{color:var(--dim);margin:0 0 20px}
 .card{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:20px 22px;margin:14px 0}
@@ -40,11 +51,34 @@ h2 span{color:var(--gold)}
 .card .meta{color:var(--dim);font-size:14px;margin:8px 0 0}
 .tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:12px;color:var(--dim);margin:6px 6px 0 0}
 .tag.ok{border-color:#1a4a2e;color:var(--ok)}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
+@media(max-width:720px){.vs{grid-template-columns:1fr}}
+.vs .col{border:1px solid var(--line);border-radius:14px;padding:18px 20px;background:var(--panel)}
+.vs .col.them{opacity:.72}
+.vs .col.us{border-color:#234a52;background:linear-gradient(180deg,#0c1820,var(--panel))}
+.vs h4{margin:0 0 12px;font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--dim)}
+.vs .col.us h4{color:var(--teal)}
+.vs ul{margin:0;padding:0;list-style:none}
+.vs li{padding:9px 0 9px 26px;position:relative;border-top:1px solid var(--line);font-size:14.5px}
+.vs li:first-child{border-top:none}
+.vs .them li:before{content:"×";position:absolute;left:2px;color:var(--dim)}
+.vs .us li:before{content:"✓";position:absolute;left:2px;color:var(--ok);font-weight:700}
 pre{background:#080c12;border:1px solid var(--line);border-radius:12px;padding:16px;overflow-x:auto;font-size:13.5px;line-height:1.6}
 code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
-.note{border-left:3px solid var(--gold);padding:2px 0 2px 16px;color:var(--dim);margin:22px 0}
+.note{border-left:3px solid var(--gold);padding:2px 0 2px 16px;color:var(--dim);margin:26px 0}
+.join{border:1px solid #234a52;border-radius:16px;background:linear-gradient(180deg,#0c1a20,var(--panel));padding:26px 24px;margin:16px 0}
+.join .big{font-size:clamp(20px,3vw,26px);font-weight:800;margin:0 0 8px;letter-spacing:-.01em}
+.join ul{margin:12px 0 0;padding-left:20px;color:var(--dim)}
+.join li{margin:4px 0}
+.mrow{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding:10px 0;font-size:14px}
+.mrow:first-of-type{border-top:none}
+.mrow .who{color:var(--ink)}
+.mrow .st{color:var(--dim)}
+.falsify{border:1px solid #4a2a20;border-radius:16px;background:linear-gradient(180deg,#180f0b,var(--panel));padding:26px 24px;margin:16px 0}
+.falsify .big{font-size:clamp(20px,3vw,26px);font-weight:800;margin:0 0 8px;color:var(--gold)}
 footer{margin-top:70px;padding-top:26px;border-top:1px solid var(--line);color:var(--dim);font-size:14px}
 a{color:var(--teal)}
+.anchor{position:relative;top:-20px}
 </style>
 <script type="application/ld+json">
 {
@@ -52,9 +86,10 @@ a{color:var(--teal)}
   "@type": "DataCatalog",
   "@id": "https://ogasurfproject-jpg.github.io/awesome-horizon-shield/#catalog",
   "name": "Awesome HORIZON SHIELD",
-  "description": "The complete inventory of open datasets, public MCP servers and verification ledgers operated by The HORIZONs K.K. Each row is published with a way to check it without trusting the operator.",
+  "description": "The complete inventory of open datasets, public MCP servers and verification ledgers operated by The HORIZONs K.K. Each row is published with a way to check it without trusting the operator. Listing is earned by passing an independent audit, not bought.",
   "url": "https://ogasurfproject-jpg.github.io/awesome-horizon-shield/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["MCP","Model Context Protocol","Japan construction cost","home-visit nursing reimbursement","verified contractor directory","conduct register","open data"],
   "creator": {
     "@type": "Organization",
     "name": "The HORIZONs K.K.",
@@ -65,7 +100,7 @@ a{color:var(--teal)}
     {
       "@type": "Dataset",
       "name": "JCCDB — Japan Construction Cost Database",
-      "description": "65,520 real construction and renovation cost items in Japan, with measured overcharging.",
+      "description": "65,520 real construction and renovation cost items in Japan, with measured overcharging averaging ¥830,000 per estimate.",
       "identifier": "https://doi.org/10.5281/zenodo.21898745",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "url": "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
@@ -91,6 +126,7 @@ a{color:var(--teal)}
 </head>
 <body>
 <div class="grid"></div>
+<div class="glow"></div>
 <div class="wrap">
 
 <header>
@@ -104,10 +140,20 @@ a{color:var(--teal)}
     <img src="https://img.shields.io/badge/JCCDB-10.5281%2Fzenodo.21898745-1682D4" alt="JCCDB DOI">
     <img src="https://img.shields.io/badge/JHNRD-10.5281%2Fzenodo.22083722-1682D4" alt="JHNRD DOI">
     <img src="https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39" alt="ORCID">
+    <a href="https://shield.the-horizons-innovation.com/verify-directory/"><img src="https://img.shields.io/badge/verify%20directory-WEDJAT%20live-48d0dc" alt="WEDJAT verify directory"></a>
   </div>
   <div class="cta">
     <a class="btn p" href="https://github.com/ogasurfproject-jpg/awesome-horizon-shield">Open the catalog on GitHub</a>
+    <a class="btn g" href="#join">Get your endpoint listed</a>
     <a class="btn s" href="https://gate.horizonshield.dev/register">See today's raw measurements</a>
+  </div>
+
+  <div class="stats">
+    <div class="stat teal"><b>65,520</b><span>real cost items in JCCDB</span></div>
+    <div class="stat gold"><b>¥830,000</b><span>median padding, <b>measured</b> — worst ¥2.82M</span></div>
+    <div class="stat"><b>54</b><span>requirements we openly mark <b>unconfirmed</b></span></div>
+    <div class="stat"><b>22,636</b><span>servers walked before we measured ourselves</span></div>
+    <div class="stat teal"><b>nobody</b><span>hand-picks a single row</span></div>
   </div>
 </header>
 
@@ -115,8 +161,37 @@ a{color:var(--teal)}
 This is <b>not</b> a neutral list. It is our own inventory, and we say so up front.
 We sell paid services to the industries these datasets describe. That is exactly why every row
 ships with a way to check it <b>without trusting us</b>.
+<span class="jp"><br>信じなくていいものだけを、載せる。</span>
 </div>
 
+<h2>Not a normal <span>awesome list</span></h2>
+<p class="lede">Most awesome lists are a popularity contest with a nice logo. This one runs on the opposite rule.</p>
+<div class="vs">
+  <div class="col them">
+    <h4>A normal awesome list</h4>
+    <ul>
+      <li>Anyone who opens a pull request adds a row</li>
+      <li>Merit means stars, and how loud the author is</li>
+      <li>Placement can sometimes be bought, quietly</li>
+      <li>An unflattering fact simply never gets added</li>
+      <li>A stranger mostly can't check any single row</li>
+      <li>The author is often anonymous, no stake disclosed</li>
+    </ul>
+  </div>
+  <div class="col us">
+    <h4>Awesome HORIZON SHIELD</h4>
+    <ul>
+      <li><b>Nobody chooses rows by hand</b> — a server is measured, the register writes the row</li>
+      <li>Merit is a DOI, a registry entry, a daily measurement, or a Bitcoin anchor</li>
+      <li><b>The code has no route</b> to add or remove a row for money</li>
+      <li>Records that embarrass the operator are <b>retained by design</b></li>
+      <li><b>One curl</b> checks any row — each ships its own verification path</li>
+      <li>The HORIZONs K.K. sells to these industries and <b>says so, up top</b></li>
+    </ul>
+  </div>
+</div>
+
+<h2 id="datasets" class="anchor"></h2>
 <h2>Open <span>datasets</span></h2>
 <p class="lede">Published under CC BY 4.0, each with a DOI you can cite.</p>
 
@@ -167,6 +242,46 @@ Measured every day by an instrument that also measures itself.</p>
   72 automated checks enforce that on every deploy.</p>
 </div>
 
+<h2 id="join" class="anchor"></h2>
+<h2>Join — <span>a row you earn</span></h2>
+<p class="lede">The only way onto this list is the one thing you can't fake: an audit you didn't run.</p>
+
+<div class="join">
+  <p class="big">Pass the independent KIRA audit → get your own verified endpoint.</p>
+  <p>It checks your estimates against the 65,520 JCCDB items and flags padding, using the same
+  instrument as every row above. Pass, and you receive:</p>
+  <ul>
+    <li>your own MCP endpoint <code>https://p0NN.horizonshield.dev/mcp</code> that answers <b>in your name</b>;</li>
+    <li>a <b>public conduct history the gate rebuilds daily — that you cannot edit</b>;</li>
+    <li>a place on a directory a homeowner can <i>check</i>, not just read.</li>
+  </ul>
+  <p style="margin:14px 0 0"><b>No pass, no listing.</b> That is the whole value: your customers get a page
+  about you that <b>you can't spin</b> — which is exactly why it is believed.</p>
+  <div style="margin:18px 0 4px">
+    <div class="mrow"><span class="who">No.001 Reform Shokunin Co., Ltd. (Aichi)</span><span class="st"><a href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp">conduct history →</a></span></div>
+    <div class="mrow"><span class="who">No.002 Mineo Toyo Juki Co., Ltd. (Kanagawa)</span><span class="st"><a href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp">conduct history →</a></span></div>
+    <div class="mrow"><span class="who">No.003 (home-visit nursing)</span><span class="st">launching Oct 2026 — in preparation</span></div>
+  </div>
+  <div class="cta" style="justify-content:flex-start;margin-top:18px">
+    <a class="btn g" href="https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=request-listing.yml">Request a listing</a>
+    <a class="btn s" href="https://github.com/ogasurfproject-jpg/awesome-horizon-shield/blob/main/CONTRIBUTING.md">Read how it works</a>
+  </div>
+  <p class="jp" style="font-size:13px;margin-top:14px">載る道はひとつ。自分では動かせない監査を通ること。通れば、あなたの名前で答える口と、あなたが編集できない日次の素行記録が付く。だから信じてもらえる。</p>
+</div>
+
+<h2>Falsify us — <span>the standing invitation</span></h2>
+<div class="falsify">
+  <p class="big">We would rather publish a mistake than hide one.</p>
+  <p>Find a row you can't verify, a number that won't reproduce, or a source that doesn't say what we
+  claim — open a <b>Falsification report</b>. Confirmed findings are kept in the open, with credit;
+  the code has no route to quietly drop them. This isn't a bounty paid in money — it's paid in the only
+  currency this list runs on: <b>being checkable</b>.</p>
+  <div class="cta" style="justify-content:flex-start;margin-top:16px">
+    <a class="btn s" href="https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=falsification.yml">Open a falsification report</a>
+  </div>
+  <p class="jp" style="font-size:13px;margin-top:14px">誤りは隠すより載せる。壊してみろ、が唯一の保証。</p>
+</div>
+
 <h2>The <span>verification layer</span></h2>
 <p class="lede">This is what separates this from an ordinary awesome list.</p>
 
@@ -184,11 +299,24 @@ Measured every day by an instrument that also measures itself.</p>
   We measured the world before measuring ourselves.</p>
 </div>
 
+<div class="card">
+  <h3><a href="https://shield.the-horizons-innovation.com/verify-directory/">WEDJAT — the human entrance</a></h3>
+  <p>The live, human-readable verification directory. It draws the same <code>/register</code> rows on
+  every load, against five published conditions. It shows the checker's own record too — which
+  <b>failed all five conditions first</b>, kept in the open rather than hidden.</p>
+  <span class="tag ok">live · nobody picks the rows</span>
+</div>
+
 <h2>Check a row <span>yourself</span></h2>
 <pre><code>curl -s "https://gate.horizonshield.dev/register"
 curl -s "https://gate.horizonshield.dev/history?endpoint=https://mcp.horizonshield.dev/mcp"</code></pre>
 <p class="lede">Recompute the <code>record_sha256</code> from the published bytes and compare.
 If it disagrees, that disagreement is itself worth publishing.</p>
+
+<div class="card">
+  <p class="meta">Embed the live measurement on your own README — it reads from the same public register, so it can't be tilted in your favor:</p>
+<pre><code>[![conduct](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json)](https://gate.horizonshield.dev/register)</code></pre>
+</div>
 
 <footer>
   Operated by The HORIZONs K.K., supervised by Toshikatsu Oga

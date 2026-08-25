@@ -1,0 +1,60 @@
+name: Request a listing (contractor / operator)
+description: Apply to be measured and — if you pass the independent KIRA audit — listed with your own verified endpoint.
+title: "[Listing] <your company name>"
+labels: ["listing-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **The one condition is passing the independent KIRA fair-price audit. No pass, no listing.**
+        Nothing here promises a price or a result — a person (担当: 大賀) reads every request and replies.
+        載る条件は独立したKIRA監査を通ること。自動返信は料金も結果も約束しません。担当（大賀）が確認します。
+  - type: input
+    id: company
+    attributes:
+      label: Company / trading name / 屋号
+      placeholder: e.g. さざなみ工務店 / Reform Shokunin Co., Ltd.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Who should we reply to?
+      description: Name and a way to reach you (email or LINE). This is not published.
+    validations:
+      required: true
+  - type: dropdown
+    id: industry
+    attributes:
+      label: Industry / 業種
+      options:
+        - Construction / renovation (建設・リフォーム)
+        - Home-visit nursing (訪問看護)
+        - Other (書いてください / describe below)
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: Region / 地域
+      placeholder: e.g. Aichi / 神奈川
+    validations:
+      required: true
+  - type: textarea
+    id: answers
+    attributes:
+      label: What should your endpoint be able to answer, in your name?
+      placeholder: e.g. "What we do, our areas, past cases, how to reach us." KIRA still audits estimates separately.
+    validations:
+      required: false
+  - type: checkboxes
+    id: understand
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand listing requires passing an independent KIRA audit that I do not run.
+          required: true
+        - label: I understand the conduct history is public, rebuilt daily, and I cannot edit it.
+          required: true
+        - label: I understand an unverified store is never shown to a homeowner (fail-closed).
+          required: true
