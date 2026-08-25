@@ -40,7 +40,7 @@ a DOI, an official registry entry, daily conduct measurements, or a Bitcoin anch
 <sub>信じなくていいものだけを、載せる。</sub>
 
 <p align="center"><sub>
-65,520 real cost items · ¥830,000 median padding <b>measured</b>, worst ¥2.82M (84.9%) ·
+65,520 real cost items · ¥830,000 average padding <b>measured</b>, worst ¥2.82M (84.9%) ·
 54 requirements we openly mark <b>unconfirmed</b> · 22,636 servers walked before we measured ourselves · nobody hand-picks a single row.
 </sub></p>
 
