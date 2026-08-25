@@ -17,7 +17,9 @@
       "license": "CC-BY-4.0",
       "doi": "10.5281/zenodo.21898745",
       "paper_doi": "10.31224/7007",
-      "anchors": ["Bitcoin block #949356"]
+      "anchors": [
+        "Bitcoin block #949356"
+      ]
     },
     {
       "id": "jhnrd",
@@ -26,35 +28,87 @@
       "version": "2024-kaitei.seed.22",
       "items": 33,
       "sources": 26,
-      "unconfirmed_requirements_disclosed": 54,
+      "unconfirmed_requirements_disclosed": 61,
       "license": "CC-BY-4.0",
       "doi": "10.5281/zenodo.22083722",
-      "design": "Sources ranked statute/agency/secondary; unconfirmed stays confirmed:false; conflicts keep both claims; searches that found nothing are recorded."
+      "design": "Sources ranked statute/agency/secondary; unconfirmed stays confirmed:false; conflicts keep both claims; searches that found nothing are recorded.",
+      "requirements": 68,
+      "requirements_confirmed": 7,
+      "sources_statute": 11,
+      "conflicts_kept_open": 3,
+      "searches_that_found_nothing": 9
     },
     {
       "id": "jidec",
       "title": "JIDEC public verification ledger (NENRIN)",
       "entry": "https://ledger.horizonshield.dev/llms.txt",
-      "anchors": ["OpenTimestamps / Bitcoin"],
+      "anchors": [
+        "OpenTimestamps / Bitcoin"
+      ],
       "note": "Audit records the operator cannot alter or delete; every record's sha256 is recomputable."
     }
   ],
   "mcp_servers": [
-    { "registry": "io.github.ogasurfproject-jpg/horizon-shield", "endpoint": "https://mcp.horizonshield.dev/mcp", "role": "KIRA fair-price audit", "never_says": "a 'correct' price" },
-    { "registry": "io.github.ogasurfproject-jpg/hs-hearing", "endpoint": "https://hearing.horizonshield.dev/mcp", "role": "YAKUMO verified contractor directory", "never_says": "prices; unverified stores are never shown (fail-closed)" },
-    { "registry": "io.github.ogasurfproject-jpg/horizon-shield-webmcp", "endpoint": "https://web.horizonshield.dev/mcp", "role": "KIRA intake desk (WebMCP embed)" },
-    { "registry": "io.github.ogasurfproject-jpg/jidec", "endpoint": "https://jidec.horizonshield.dev/mcp", "role": "cite + independently verify ledger records" },
-    { "registry": "io.github.ogasurfproject-jpg/jhnrd", "endpoint": "https://jhnrd-mcp.oga-surf-project.workers.dev/mcp", "role": "reimbursement rules with sources", "never_says": "算定できます — returns requirements and sources, never the judgement; enforced by 72 automated checks" },
-    { "registry": "io.github.ogasurfproject-jpg/hs-verify-gate", "endpoint": "https://gate.horizonshield.dev/mcp", "role": "the measuring gate; measures itself too" }
+    {
+      "registry": "io.github.ogasurfproject-jpg/horizon-shield",
+      "endpoint": "https://mcp.horizonshield.dev/mcp",
+      "role": "KIRA fair-price audit",
+      "never_says": "a 'correct' price"
+    },
+    {
+      "registry": "io.github.ogasurfproject-jpg/hs-hearing",
+      "endpoint": "https://hearing.horizonshield.dev/mcp",
+      "role": "YAKUMO verified contractor directory",
+      "never_says": "prices; unverified stores are never shown (fail-closed)"
+    },
+    {
+      "registry": "io.github.ogasurfproject-jpg/horizon-shield-webmcp",
+      "endpoint": "https://web.horizonshield.dev/mcp",
+      "role": "KIRA intake desk (WebMCP embed)"
+    },
+    {
+      "registry": "io.github.ogasurfproject-jpg/jidec",
+      "endpoint": "https://jidec.horizonshield.dev/mcp",
+      "role": "cite + independently verify ledger records"
+    },
+    {
+      "registry": "io.github.ogasurfproject-jpg/jhnrd",
+      "endpoint": "https://jhnrd-mcp.oga-surf-project.workers.dev/mcp",
+      "role": "reimbursement rules with sources",
+      "never_says": "算定できます — returns requirements and sources, never the judgement; enforced by 72 automated checks"
+    },
+    {
+      "registry": "io.github.ogasurfproject-jpg/hs-verify-gate",
+      "endpoint": "https://gate.horizonshield.dev/mcp",
+      "role": "the measuring gate; measures itself too"
+    }
   ],
   "member_servers": [
-    { "member": "No.001", "endpoint": "https://p001.horizonshield.dev/mcp" },
-    { "member": "No.002", "endpoint": "https://p002.horizonshield.dev/mcp" },
-    { "member": "No.003", "status": "in preparation (home-visit nursing, opening 2026-10)" }
+    {
+      "member": "No.001",
+      "endpoint": "https://p001.horizonshield.dev/mcp"
+    },
+    {
+      "member": "No.002",
+      "endpoint": "https://p002.horizonshield.dev/mcp"
+    },
+    {
+      "member": "No.003",
+      "status": "in preparation (home-visit nursing, opening 2026-10)"
+    }
   ],
   "verification_layer": {
-    "conduct_register": { "repo": "https://github.com/ogasurfproject-jpg/mcp-conduct-register", "doi": "10.5281/zenodo.21970931", "live": "https://gate.horizonshield.dev/register", "rows_chosen_by": "nobody" },
-    "registry_survey": { "repo": "https://github.com/ogasurfproject-jpg/mcp-registry-survey", "walked": 22636, "date": "2026-08-19" },
+    "conduct_register": {
+      "repo": "https://github.com/ogasurfproject-jpg/mcp-conduct-register",
+      "doi": "10.5281/zenodo.21970931",
+      "live": "https://gate.horizonshield.dev/register",
+      "rows_chosen_by": "nobody"
+    },
+    "registry_survey": {
+      "repo": "https://github.com/ogasurfproject-jpg/mcp-registry-survey",
+      "walked": 22636,
+      "date": "2026-08-19"
+    },
     "human_entry": "https://shield.the-horizons-innovation.com/verify-directory/"
   },
   "license": "CC-BY-4.0"

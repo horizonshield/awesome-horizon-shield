@@ -1,0 +1,28 @@
+# Awesome HORIZON SHIELD
+
+> The complete index of databases, MCP servers and verification ledgers operated by
+> The HORIZONs K.K. (Japan). This is the operator's own inventory, and it says so.
+> Every row carries a way to verify it without trusting the operator:
+> a DOI, an official MCP registry entry, daily conduct measurements, or a Bitcoin anchor.
+
+## Datasets
+- JCCDB, Japan Construction Cost Database: 65,520 items, CC BY 4.0, DOI 10.5281/zenodo.21898745. https://github.com/ogasurfproject-jpg/japan-construction-cost-database
+- JHNRD, Japan Home-visit Nursing Reimbursement Database: 33 items / 68 requirements, 61 explicitly unconfirmed, sources ranked statute/agency/secondary, CC BY 4.0, DOI 10.5281/zenodo.22083722. https://github.com/ogasurfproject-jpg/jhnrd
+- JIDEC, Bitcoin-anchored public verification ledger: https://ledger.horizonshield.dev/llms.txt
+
+## Public MCP servers (official registry, streamable HTTP)
+- io.github.ogasurfproject-jpg/horizon-shield — KIRA fair-price audit — https://mcp.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/hs-hearing — YAKUMO verified contractor directory — https://hearing.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/horizon-shield-webmcp — KIRA intake desk — https://web.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/jidec — ledger citation and verification — https://jidec.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/jhnrd — reimbursement rules with sources, key-less read-only — https://jhnrd-mcp.oga-surf-project.workers.dev/mcp
+- io.github.ogasurfproject-jpg/hs-verify-gate — the measuring gate, measures itself — https://gate.horizonshield.dev/mcp
+
+## Verification layer
+- MCP Conduct Register (rows chosen by nobody, rebuilt daily, DOI 10.5281/zenodo.21970931): https://github.com/ogasurfproject-jpg/mcp-conduct-register
+- Live register API: https://gate.horizonshield.dev/register
+- Full walk of the official MCP registry (22,636 servers, 2026-08-19): https://github.com/ogasurfproject-jpg/mcp-registry-survey
+
+## Conflict of interest
+The operator sells paid services to the industries these datasets describe, and discloses it:
+https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md
