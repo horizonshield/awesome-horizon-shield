@@ -15,14 +15,14 @@
 <a href="https://doi.org/10.5281/zenodo.22083722"><img src="https://img.shields.io/badge/JHNRD-10.5281%2Fzenodo.22083722-1682D4" alt="JHNRD DOI"></a>
 <a href="https://doi.org/10.5281/zenodo.21970931"><img src="https://img.shields.io/badge/Conduct%20Register-10.5281%2Fzenodo.21970931-1682D4" alt="Register DOI"></a>
 <a href="https://orcid.org/0009-0000-9180-903X"><img src="https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39" alt="ORCID"></a>
-<a href="https://gate.horizonshield.dev/register"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json" alt="Conduct verified today"></a>
-<a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fservers.json" alt="Endpoints measured"></a>
+<a href="https://gate.horizonshield.dev/register"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhorizonshield%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json" alt="Conduct verified today"></a>
+<a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhorizonshield%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fservers.json" alt="Endpoints measured"></a>
 <a href="https://shield.the-horizons-innovation.com/verify-directory/"><img src="https://img.shields.io/badge/verify%20directory-WEDJAT%20live-48d0dc" alt="WEDJAT verify directory, live"></a>
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License"></a>
 </p>
 
 <p align="center">
-<b><a href="https://ogasurfproject-jpg.github.io/awesome-horizon-shield/">Website</a></b> ·
+<b><a href="https://horizonshield.github.io/awesome-horizon-shield/">Website</a></b> ·
 <a href="#quick-start--use-these-servers-in-30-seconds">Quick start</a> ·
 <a href="#not-a-normal-awesome-list">Why it's different</a> ·
 <a href="#join--put-your-name-on-a-row-you-earned">Join</a> ·
@@ -190,21 +190,8 @@ This is what separates this list from an ordinary awesome list.
 ### Live conduct, rebuilt daily (nobody picks the rows)
 
 <!-- LIVE:START -->
-Rebuilt from <https://gate.horizonshield.dev/register> at **2026-08-25 21:48 UTC**.
-
-Nobody chooses these rows. A verdict of `verified` means the conditions that
-were measured passed on that date. It does not mean the numbers a server
-returns are correct, and absence is **not** a negative verdict.
-
-| Server | Endpoint | Latest verdict | Measured | Measurements | record_sha256 |
-|---|---|---|---|---|---|
-| KIRA fair price audit (the flagship MCP server) | [`https://mcp.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-25 | 26 | `f1ebe619cbf6` |
-| YAKUMO verified contractor directory | [`https://hearing.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-25 | 26 | `7d0b7b900c39` |
-| KIRA intake desk for renovation questions | [`https://web.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-25 | 26 | `fdab7fc56e57` |
-| JIDEC, the Bitcoin anchored public ledger | [`https://jidec.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-25 | 17 | `e16383c907bd` |
-| Reform Shokunin Co., Ltd. (member No.001, Aichi) | [`https://p001.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) | 🟡 pending | 2026-08-25 | 26 | `5bf8c20276e6` |
-| Mineo Toyo Juki Co., Ltd. (member No.002) | [`https://p002.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-25 | 26 | `5b7ad815b515` |
-| The verification gate, measuring itself | [`https://gate.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-25 | 26 | `477393ae9a3a` |
+_This block is written by [`scripts/refresh.py`](./scripts/refresh.py) from the public register,
+once a day. Until its next run it stays as-is rather than guessing, a stale date is honest, an invented row is not._
 <!-- LIVE:END -->
 
 ### Verify any row yourself
@@ -222,7 +209,7 @@ Run one of these endpoints, or cite this catalog? Put the **live** measurement o
 It reads from the same public register, so it cannot be tilted in your favor:
 
 ```md
-[![conduct](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fogasurfproject-jpg%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json)](https://gate.horizonshield.dev/register)
+[![conduct](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhorizonshield%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json)](https://gate.horizonshield.dev/register)
 ```
 
 ---
