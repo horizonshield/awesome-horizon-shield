@@ -58,6 +58,14 @@ Every server below is **key-less and read-only**. No account, no API key, nothin
 [![Add JHNRD to Cursor](https://img.shields.io/badge/Add%20JHNRD%20to-Cursor-000000?logo=cursor)](cursor://anysphere.cursor-deeplink/mcp/install?name=jhnrd-nursing-rules&config=eyJ1cmwiOiAiaHR0cHM6Ly9qaG5yZC1tY3Aub2dhLXN1cmYtcHJvamVjdC53b3JrZXJzLmRldi9tY3AifQ==)
 [![Add JHNRD to VS Code](https://img.shields.io/badge/Add%20JHNRD%20to-VS%20Code-0098FF?logo=visualstudiocode)](https://insiders.vscode.dev/redirect/mcp/install?name=jhnrd-nursing-rules&config=%7B%22url%22%3A%20%22https%3A%2F%2Fjhnrd-mcp.oga-surf-project.workers.dev%2Fmcp%22%7D)
 
+**What comes back.** Ask, in plain language:
+
+> Is ¥1,800,000 fair to repaint a 30-tsubo house in silicone?
+
+> **Fair range ¥700k to ¥1,150k** (avg ¥900k). This quote sits **+100% over the average**, about **¥650k above the top of the range**. Two red flags in the wording: a lump sum hides the breakdown, and a "today only" discount inflates the base. KIRA never calls the contractor dishonest. It hands you the numbers and the sources, and says: get the itemized breakdown.
+>
+> <sub>Source: HORIZON SHIELD souba-db (field-supervised), item base JCCDB, DOI 10.5281/zenodo.21898745.</sub>
+
 <details>
 <summary><b>Claude Desktop / Claude Code / any MCP client, paste this</b></summary>
 
