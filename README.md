@@ -201,8 +201,21 @@ This is what separates this list from an ordinary awesome list.
 ### Live conduct, rebuilt daily (nobody picks the rows)
 
 <!-- LIVE:START -->
-_This block is written by [`scripts/refresh.py`](./scripts/refresh.py) from the public register,
-once a day. Until its next run it stays as-is rather than guessing, a stale date is honest, an invented row is not._
+Rebuilt from <https://gate.horizonshield.dev/register> at **2026-08-27 00:52 UTC**.
+
+Nobody chooses these rows. A verdict of `verified` means the conditions that
+were measured passed on that date. It does not mean the numbers a server
+returns are correct, and absence is **not** a negative verdict.
+
+| Server | Endpoint | Latest verdict | Measured | Measurements | record_sha256 |
+|---|---|---|---|---|---|
+| KIRA fair price audit (the flagship MCP server) | [`https://mcp.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `a179cff35ba7` |
+| YAKUMO verified contractor directory | [`https://hearing.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `45eb3b125cf8` |
+| KIRA intake desk for renovation questions | [`https://web.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `7d11e5b186dc` |
+| JIDEC, the Bitcoin anchored public ledger | [`https://jidec.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 18 | `7497ec9257e1` |
+| Reform Shokunin Co., Ltd. (member No.001, Aichi) | [`https://p001.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) | 🟡 pending | 2026-08-26 | 27 | `116f2e7ec26e` |
+| Mineo Toyo Juki Co., Ltd. (member No.002) | [`https://p002.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `5ff24901bac0` |
+| The verification gate, measuring itself | [`https://gate.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `c4baac8dfa7c` |
 <!-- LIVE:END -->
 
 ### Verify any row yourself
