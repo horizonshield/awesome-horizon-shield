@@ -34,6 +34,7 @@ OURS = (
     "p001.horizonshield.dev",
     "p002.horizonshield.dev",
     "jhnrd-mcp.oga-surf-project.workers.dev",
+    "femtech.horizonshield.dev",
 )
 
 

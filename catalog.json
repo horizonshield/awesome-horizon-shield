@@ -79,6 +79,12 @@
       "never_says": "算定できます, returns requirements and sources, never the judgement; enforced by 72 automated checks"
     },
     {
+      "registry": "io.github.ogasurfproject-jpg/hs-femtech-mcp",
+      "endpoint": "https://femtech.horizonshield.dev/mcp",
+      "role": "femtech (women's health) source verification registry",
+      "never_says": "a diagnosis, or that a product works; takes no referral or listing fee"
+    },
+    {
       "registry": "io.github.ogasurfproject-jpg/hs-verify-gate",
       "endpoint": "https://gate.horizonshield.dev/mcp",
       "role": "the measuring gate; measures itself too"

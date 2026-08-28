@@ -69,6 +69,12 @@ Every server below is **key-less and read-only**. No account, no API key, nothin
 >
 > <sub>Source: HORIZON SHIELD souba-db (field-supervised), item base JCCDB, DOI 10.5281/zenodo.21898745.</sub>
 
+**The same discipline, applied to women's health:** the Femtech Registry verifies who publishes the information and under what disclosure, and never diagnoses.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ogasurfproject-jpg/hs-femtech-mcp/main/banner.jpg" alt="HORIZON SHIELD Femtech Registry: neutral, verifiable registry of femtech information sources. No diagnosis, no referral fees." width="820">
+</p>
+
 <details>
 <summary><b>Claude Desktop / Claude Code / any MCP client, paste this</b></summary>
 
@@ -148,6 +154,7 @@ All listed in the [official MCP registry](https://registry.modelcontextprotocol.
 | **KIRA intake desk (WebMCP)** | `io.github.ogasurfproject-jpg/horizon-shield-webmcp` | `https://web.horizonshield.dev/mcp` | Renovation intake; embeds on any site with one `<script>` line |
 | **JIDEC ledger** | `io.github.ogasurfproject-jpg/jidec` | `https://jidec.horizonshield.dev/mcp` | Cites audit records and shows how to re-verify them independently. **Requires no trust** |
 | **JHNRD public MCP** | `io.github.ogasurfproject-jpg/jhnrd` | `https://jhnrd-mcp.oga-surf-project.workers.dev/mcp` | Key-less, read-only. Returns requirements and sources. **Never says "you can bill this"**, it returns evidence, never the judgement; 72 automated checks enforce this on every deploy |
+| **Femtech source registry** <sub>フェム情報源レジストリ</sub> | `io.github.ogasurfproject-jpg/hs-femtech-mcp` | `https://femtech.horizonshield.dev/mcp` | Verifies who publishes women's-health information, under what jurisdiction, with what disclosure. **Never diagnoses, never claims a product works, never takes a referral fee** |
 | **Verification gate** | `io.github.ogasurfproject-jpg/hs-verify-gate` | `https://gate.horizonshield.dev/mcp` | The instrument that measures all of the above daily. **Measures itself too** |
 
 ---
@@ -201,7 +208,7 @@ This is what separates this list from an ordinary awesome list.
 ### Live conduct, rebuilt daily (nobody picks the rows)
 
 <!-- LIVE:START -->
-Rebuilt from <https://gate.horizonshield.dev/register> at **2026-08-27 00:52 UTC**.
+Rebuilt from <https://gate.horizonshield.dev/register> at **2026-08-28 00:40 UTC**.
 
 Nobody chooses these rows. A verdict of `verified` means the conditions that
 were measured passed on that date. It does not mean the numbers a server
@@ -209,13 +216,13 @@ returns are correct, and absence is **not** a negative verdict.
 
 | Server | Endpoint | Latest verdict | Measured | Measurements | record_sha256 |
 |---|---|---|---|---|---|
-| KIRA fair price audit (the flagship MCP server) | [`https://mcp.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `a179cff35ba7` |
-| YAKUMO verified contractor directory | [`https://hearing.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `45eb3b125cf8` |
-| KIRA intake desk for renovation questions | [`https://web.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `7d11e5b186dc` |
-| JIDEC, the Bitcoin anchored public ledger | [`https://jidec.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 18 | `7497ec9257e1` |
-| Reform Shokunin Co., Ltd. (member No.001, Aichi) | [`https://p001.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) | 🟡 pending | 2026-08-26 | 27 | `116f2e7ec26e` |
-| Mineo Toyo Juki Co., Ltd. (member No.002) | [`https://p002.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `5ff24901bac0` |
-| The verification gate, measuring itself | [`https://gate.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-26 | 27 | `c4baac8dfa7c` |
+| KIRA fair price audit (the flagship MCP server) | [`https://mcp.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-27 | 28 | `b5ed8232995a` |
+| YAKUMO verified contractor directory | [`https://hearing.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-27 | 28 | `314a2e7e8da9` |
+| KIRA intake desk for renovation questions | [`https://web.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-27 | 28 | `bd00cdecc731` |
+| JIDEC, the Bitcoin anchored public ledger | [`https://jidec.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-27 | 19 | `3de2d5d5c812` |
+| Reform Shokunin Co., Ltd. (member No.001, Aichi) | [`https://p001.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) | 🟡 pending | 2026-08-27 | 28 | `db2f719b1bbd` |
+| Mineo Toyo Juki Co., Ltd. (member No.002) | [`https://p002.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-27 | 28 | `790cc34376b9` |
+| The verification gate, measuring itself | [`https://gate.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-08-27 | 28 | `dce24c853469` |
 <!-- LIVE:END -->
 
 ### Verify any row yourself
