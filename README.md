@@ -208,7 +208,7 @@ This is what separates this list from an ordinary awesome list.
 ### Live conduct, rebuilt daily (nobody picks the rows)
 
 <!-- LIVE:START -->
-Rebuilt from <https://gate.horizonshield.dev/register> at **2026-09-09 23:20 UTC**.
+Rebuilt from <https://gate.horizonshield.dev/register> at **2026-09-10 23:14 UTC**.
 
 Nobody chooses these rows. A verdict of `verified` means the conditions that
 were measured passed on that date. It does not mean the numbers a server
@@ -216,14 +216,14 @@ returns are correct, and absence is **not** a negative verdict.
 
 | Server | Endpoint | Latest verdict | Measured | Measurements | record_sha256 |
 |---|---|---|---|---|---|
-| KIRA fair price audit (the flagship MCP server) | [`https://mcp.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-09 | 36 | `73cb2d9a2304` |
-| YAKUMO verified contractor directory | [`https://hearing.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-09 | 36 | `bdea93ab5d74` |
-| KIRA intake desk for renovation questions | [`https://web.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-09 | 36 | `10e71b4c8346` |
-| JIDEC, the Bitcoin anchored public ledger | [`https://jidec.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-09 | 34 | `6b0a94d830d7` |
-| Reform Shokunin Co., Ltd. (member No.001, Aichi) | [`https://p001.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) | 🟡 pending | 2026-09-09 | 36 | `4b5095511270` |
+| KIRA fair price audit (the flagship MCP server) | [`https://mcp.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-10 | 37 | `ee358b49bb8a` |
+| YAKUMO verified contractor directory | [`https://hearing.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-10 | 37 | `bbc5acfef8d9` |
+| KIRA intake desk for renovation questions | [`https://web.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-10 | 37 | `6a9f4e4549ad` |
+| JIDEC, the Bitcoin anchored public ledger | [`https://jidec.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-10 | 35 | `8b581b032c5c` |
+| Reform Shokunin Co., Ltd. (member No.001, Aichi) | [`https://p001.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) | 🟡 pending | 2026-09-10 | 37 | `0a85f313a8b3` |
 | Mineo Toyo Juki Co., Ltd. (member No.002) | [`https://p002.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-09 | 36 | `4caf4de8c0d6` |
-| The verification gate, measuring itself | [`https://gate.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-09 | 35 | `e9583c2a16ec` |
-| Femtech source registry (verify sources, never diagnose) | [`https://femtech.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-09 | 14 | `5b8c634ce71a` |
+| The verification gate, measuring itself | [`https://gate.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-10 | 36 | `4c5dd1270582` |
+| Femtech source registry (verify sources, never diagnose) | [`https://femtech.horizonshield.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp) | 🟢 verified | 2026-09-10 | 15 | `23d27c870975` |
 | https://intel.twzrd.xyz/mcp | [`https://intel.twzrd.xyz/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp) | 🟡 pending | 2026-09-08 | 1 | `b7c59584403d` |
 <!-- LIVE:END -->
 
