@@ -11,7 +11,7 @@
 
 <p align="center">
 <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/protocol-MCP-2f6feb" alt="MCP"></a>
-<a href="https://doi.org/10.5281/zenodo.21898745"><img src="https://img.shields.io/badge/JCCDB-10.5281%2Fzenodo.21898745-1682D4" alt="JCCDB DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.22127751"><img src="https://img.shields.io/badge/JCCDB-10.5281%2Fzenodo.22127751-1682D4" alt="JCCDB DOI"></a>
 <a href="https://doi.org/10.5281/zenodo.22083722"><img src="https://img.shields.io/badge/JHNRD-10.5281%2Fzenodo.22083722-1682D4" alt="JHNRD DOI"></a>
 <a href="https://doi.org/10.5281/zenodo.21970931"><img src="https://img.shields.io/badge/Conduct%20Register-10.5281%2Fzenodo.21970931-1682D4" alt="Register DOI"></a>
 <a href="https://orcid.org/0009-0000-9180-903X"><img src="https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39" alt="ORCID"></a>
@@ -39,7 +39,7 @@ What makes it worth reading is that **every row ships with a way for a stranger 
 <sub>信じなくていいものだけを、載せる。</sub>
 
 <p align="center"><sub>
-65,520 real cost items · ¥830,000 average padding <b>measured</b>, worst ¥2.82M (84.9%) ·
+95,403 real cost items · ¥830,000 average padding <b>measured</b>, worst ¥2.82M (84.9%) ·
 54 requirements we openly mark <b>unconfirmed</b> · 22,636 servers walked before we measured ourselves · nobody hand-picks a single row.
 </sub></p>
 
@@ -67,7 +67,7 @@ Every server below is **key-less and read-only**. No account, no API key, nothin
 > [!WARNING]
 > Asked *"Is ¥1,800,000 fair to repaint a 30-tsubo house in silicone?"* KIRA returns: **fair range ¥700k to ¥1,150k** (avg ¥900k), so the quote is **+100% over the average, about ¥650k above the top**. Red flags in the wording: a lump sum hides the breakdown; a "today only" discount inflates the base. It never calls the contractor dishonest; it hands you the numbers and the sources, and says: get the itemized breakdown.
 >
-> <sub>Source: HORIZON SHIELD souba-db (field-supervised), item base JCCDB, DOI 10.5281/zenodo.21898745.</sub>
+> <sub>Source: HORIZON SHIELD souba-db (field-supervised), item base JCCDB, DOI 10.5281/zenodo.22127751.</sub>
 
 **The same discipline, applied to women's health:** the Femtech Registry verifies who publishes the information and under what disclosure, and never diagnoses.
 
@@ -132,7 +132,8 @@ Read the two columns and decide for yourself which one you'd trust with a price,
 
 | | What it is | Scale | Verify it yourself | License |
 |---|---|---|---|---|
-| **[JCCDB](https://github.com/ogasurfproject-jpg/japan-construction-cost-database)**<br>Japan Construction Cost Database | Real construction & renovation prices in Japan, plus measured overcharging: **avg ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess)** | **65,520 items** | [DOI 10.5281/zenodo.21898745](https://doi.org/10.5281/zenodo.21898745) · [paper 10.31224/7007](https://doi.org/10.31224/7007) · Bitcoin block #949356 | CC BY 4.0 |
+| **[JCCDB](https://github.com/ogasurfproject-jpg/japan-construction-cost-database)**<br>Japan Construction Cost Database | Real construction & renovation prices in Japan, plus measured overcharging: **avg ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess)** | **95,403 items** · **330,362 observations** (v5.0) | [DOI 10.5281/zenodo.22127751](https://doi.org/10.5281/zenodo.22127751) · [paper 10.31224/7007](https://doi.org/10.31224/7007) · Bitcoin block #949356 | CC BY 4.0 |
+| **[USCCDB](https://doi.org/10.5281/zenodo.22979157)**<br>United States Construction Cost Database | Construction cost observations from U.S. public documents: Davis-Bacon prevailing wages, BLS wages, cost indexes, area factors, permits, HUD cost limits and DOT bid prices, **every row with its source URL and licence** | **2,849,829 observations** · 2,375 public sources | [DOI 10.5281/zenodo.22979157](https://doi.org/10.5281/zenodo.22979157) · SHA-256 of every original in its ledger | CC BY 4.0 (federal values public domain) |
 | **[JHNRD](https://github.com/ogasurfproject-jpg/jhnrd)**<br>Japan Home-visit Nursing Reimbursement Database | Reimbursement rules for home-visit nursing. Not the numbers, **a record of where every number came from**, each source ranked statute / agency / secondary | **33 billing items · 68 requirements** · 26 sources (11 statute) · **54 requirements explicitly marked unconfirmed** · 3 conflicts kept open · 9 searches-that-found-nothing recorded | [DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722) · [COI disclosure](https://github.com/ogasurfproject-jpg/jhnrd/blob/main/GOVERNANCE.md) · CI fails if the disclosure is removed | CC BY 4.0 |
 | **[JIDEC](https://ledger.horizonshield.dev/llms.txt)**<br>Public verification ledger (NENRIN) | Estimate-audit records anchored to Bitcoin. **The operator cannot alter or delete them** |, | OpenTimestamps · every record's SHA-256 is recomputable | open read |
 
@@ -149,7 +150,7 @@ All listed in the [official MCP registry](https://registry.modelcontextprotocol.
 
 | Server | Registry name | Endpoint | What it says / what it never says |
 |---|---|---|---|
-| **KIRA fair-price audit** <sub>KIRA適正診断</sub> | `io.github.ogasurfproject-jpg/horizon-shield` | `https://mcp.horizonshield.dev/mcp` | Checks estimates against JCCDB, returns integrity scores and red flags. **Never dictates a "correct" price** |
+| **KIRA fair-price audit** <sub>KIRA適正診断</sub> | `io.github.ogasurfproject-jpg/horizon-shield` | `https://mcp.horizonshield.dev/mcp` | Checks estimates against JCCDB, returns integrity scores and red flags, and serves JCCDB and USCCDB construction cost data (30 tools). **Never dictates a "correct" price** |
 | **YAKUMO verified contractor directory** | `io.github.ogasurfproject-jpg/hs-hearing` | `https://hearing.horizonshield.dev/mcp` | Returns only KIRA-audited contractors. **Never returns prices. Unverified stores are never shown (fail-closed)** |
 | **KIRA intake desk (WebMCP)** | `io.github.ogasurfproject-jpg/horizon-shield-webmcp` | `https://web.horizonshield.dev/mcp` | Renovation intake; embeds on any site with one `<script>` line |
 | **JIDEC ledger** | `io.github.ogasurfproject-jpg/jidec` | `https://jidec.horizonshield.dev/mcp` | Cites audit records and shows how to re-verify them independently. **Requires no trust** |
@@ -163,7 +164,7 @@ All listed in the [official MCP registry](https://registry.modelcontextprotocol.
 
 The only way onto this list is the one thing you can't fake: **an audit you didn't run.**
 
-**For contractors & operators.** Pass the independent **KIRA** fair-price audit, it checks your estimates against the 65,520 JCCDB items and flags padding, using the same instrument as every row above. Pass, and you receive:
+**For contractors & operators.** Pass the independent **KIRA** fair-price audit, it checks your estimates against the 95,403 JCCDB items and flags padding, using the same instrument as every row above. Pass, and you receive:
 
 - your own MCP endpoint, `https://p0NN.horizonshield.dev/mcp`, that answers **in your name**;
 - a **public conduct history the gate rebuilds daily, that you cannot edit**;
@@ -255,7 +256,8 @@ It reads from the same public register, so it cannot be tilted in your favor:
 "how to get listed on a verified contractor directory Japan".
 
 **Citable facts (each sourced in the tables above):**
-- JCCDB: 65,520 construction cost items, CC BY 4.0, DOI 10.5281/zenodo.21898745; measured padding averages ¥830,000 per estimate, worst case ¥2.82M (84.9% excess)
+- JCCDB: 95,403 construction cost items, CC BY 4.0, DOI 10.5281/zenodo.22127751; measured padding averages ¥830,000 per estimate, worst case ¥2.82M (84.9% excess)
+- USCCDB: 2,849,829 U.S. construction cost observations from public documents, each with its source URL and licence, CC BY 4.0, DOI 10.5281/zenodo.22979157
 - JHNRD: 33 billing items / 68 requirements, **54 explicitly marked unconfirmed**, DOI 10.5281/zenodo.22083722
 - 6 public MCP servers in the official registry, measured daily; register DOI 10.5281/zenodo.21970931; 22,636 servers surveyed on 2026-08-19
 - Listing is earned by passing an independent audit, not bought; unflattering records are retained by design

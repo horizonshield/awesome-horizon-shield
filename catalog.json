@@ -13,13 +13,26 @@
       "id": "jccdb",
       "title": "Japan Construction Cost Database (JCCDB)",
       "repo": "https://github.com/ogasurfproject-jpg/japan-construction-cost-database",
-      "items": 65520,
+      "items": 95403,
       "license": "CC-BY-4.0",
-      "doi": "10.5281/zenodo.21898745",
+      "doi": "10.5281/zenodo.22127751",
       "paper_doi": "10.31224/7007",
       "anchors": [
         "Bitcoin block #949356"
-      ]
+      ],
+      "version": "5.0",
+      "version_doi": "10.5281/zenodo.22980284",
+      "observations": 330362
+    },
+    {
+      "id": "usccdb",
+      "title": "United States Construction Cost Database (USCCDB)",
+      "doi": "10.5281/zenodo.22979157",
+      "version": "1.0",
+      "observations": 2849829,
+      "sources": 2375,
+      "license": "CC-BY-4.0",
+      "note": "Observations from U.S. public documents; federal values are public domain; every row carries its source URL and licence."
     },
     {
       "id": "jhnrd",
@@ -54,7 +67,9 @@
       "registry": "io.github.ogasurfproject-jpg/horizon-shield",
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "role": "KIRA fair-price audit",
-      "never_says": "a 'correct' price"
+      "never_says": "a 'correct' price",
+      "tools": 30,
+      "data": "JCCDB (Japan) and USCCDB (United States) construction cost data"
     },
     {
       "registry": "io.github.ogasurfproject-jpg/hs-hearing",
@@ -127,7 +142,7 @@
   "participate": {
     "get_listed": {
       "who": "contractors, renovation firms, one-person shops, home-visit nursing operators",
-      "condition": "pass the independent KIRA fair-price audit (checks estimates against 65,520 JCCDB items); no pass, no listing",
+      "condition": "pass the independent KIRA fair-price audit (checks estimates against 95,403 JCCDB items); no pass, no listing",
       "you_get": "your own MCP endpoint https://p0NN.horizonshield.dev/mcp answering in your name, plus a public daily conduct history you cannot edit",
       "apply": "https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=request-listing.yml",
       "guide": "https://github.com/ogasurfproject-jpg/awesome-horizon-shield/blob/main/CONTRIBUTING.md"

@@ -7,12 +7,13 @@
 > Listing is earned by passing an independent audit, not bought; unflattering records are retained by design.
 
 ## Datasets
-- JCCDB, Japan Construction Cost Database: 65,520 items, CC BY 4.0, DOI 10.5281/zenodo.21898745. Measured overcharging averages ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess). https://github.com/ogasurfproject-jpg/japan-construction-cost-database
+- JCCDB, Japan Construction Cost Database: 95,403 items and 330,362 observations (v5.0), CC BY 4.0, DOI 10.5281/zenodo.22127751. Measured overcharging averages ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess). https://github.com/ogasurfproject-jpg/japan-construction-cost-database
+- USCCDB, United States Construction Cost Database: 2,849,829 construction cost observations from U.S. public documents (prevailing wages, wages, indexes, area factors, permits, bid prices), each with its source URL and licence, CC BY 4.0, DOI 10.5281/zenodo.22979157
 - JHNRD, Japan Home-visit Nursing Reimbursement Database: 33 items / 68 requirements, 54 explicitly unconfirmed, sources ranked statute/agency/secondary, CC BY 4.0, DOI 10.5281/zenodo.22083722. Numbers are the owner's status.json, not recounted here. https://github.com/ogasurfproject-jpg/jhnrd
 - JIDEC, Bitcoin-anchored public verification ledger: https://ledger.horizonshield.dev/llms.txt
 
 ## Public MCP servers (official registry, streamable HTTP, key-less, read-only)
-- io.github.ogasurfproject-jpg/horizon-shield, KIRA fair-price audit, https://mcp.horizonshield.dev/mcp
+- io.github.ogasurfproject-jpg/horizon-shield, KIRA fair-price audit and JCCDB/USCCDB construction cost data (30 tools), https://mcp.horizonshield.dev/mcp
 - io.github.ogasurfproject-jpg/hs-hearing, YAKUMO verified contractor directory, https://hearing.horizonshield.dev/mcp
 - io.github.ogasurfproject-jpg/horizon-shield-webmcp, KIRA intake desk, https://web.horizonshield.dev/mcp
 - io.github.ogasurfproject-jpg/jidec, ledger citation and verification, https://jidec.horizonshield.dev/mcp
@@ -31,7 +32,7 @@
 - Every row ships with its own one-command verification path.
 
 ## Get listed (contractors and operators)
-- The only condition is passing the independent KIRA fair-price audit (checks estimates against 65,520 JCCDB items). No pass, no listing.
+- The only condition is passing the independent KIRA fair-price audit (checks estimates against 95,403 JCCDB items). No pass, no listing.
 - On passing you get your own MCP endpoint https://p0NN.horizonshield.dev/mcp answering in your name, plus a public daily conduct history you cannot edit.
 - Apply: open a "Request a listing" issue, https://github.com/ogasurfproject-jpg/awesome-horizon-shield/issues/new?template=request-listing.yml
 - Guide: https://github.com/ogasurfproject-jpg/awesome-horizon-shield/blob/main/CONTRIBUTING.md
