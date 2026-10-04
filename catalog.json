@@ -20,9 +20,9 @@
       "anchors": [
         "Bitcoin block #949356"
       ],
-      "version": "5.0",
-      "version_doi": "10.5281/zenodo.22980284",
-      "observations": 330362
+      "version": "5.1",
+      "version_doi": "10.5281/zenodo.23133068",
+      "observations": 430725
     },
     {
       "id": "usccdb",

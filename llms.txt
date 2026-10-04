@@ -7,7 +7,7 @@
 > Listing is earned by passing an independent audit, not bought; unflattering records are retained by design.
 
 ## Datasets
-- JCCDB, Japan Construction Cost Database: 95,403 items and 330,362 observations (v5.0), CC BY 4.0, DOI 10.5281/zenodo.22127751. Measured overcharging averages ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess). https://github.com/ogasurfproject-jpg/japan-construction-cost-database
+- JCCDB, Japan Construction Cost Database: 95,403 items and 430,725 observations (v5.1), CC BY 4.0, DOI 10.5281/zenodo.22127751. Measured overcharging averages ¥830,000 padded per estimate, worst case ¥2.82M (84.9% excess). https://github.com/ogasurfproject-jpg/japan-construction-cost-database
 - USCCDB, United States Construction Cost Database: 2,849,829 construction cost observations from U.S. public documents (prevailing wages, wages, indexes, area factors, permits, bid prices), each with its source URL and licence, CC BY 4.0, DOI 10.5281/zenodo.22979157
 - JHNRD, Japan Home-visit Nursing Reimbursement Database: 33 items / 68 requirements, 54 explicitly unconfirmed, sources ranked statute/agency/secondary, CC BY 4.0, DOI 10.5281/zenodo.22083722. Numbers are the owner's status.json, not recounted here. https://github.com/ogasurfproject-jpg/jhnrd
 - JIDEC, Bitcoin-anchored public verification ledger: https://ledger.horizonshield.dev/llms.txt
