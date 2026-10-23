@@ -209,7 +209,7 @@ This is what separates this list from an ordinary awesome list.
 ### Live conduct, rebuilt daily (nobody picks the rows)
 
 <!-- LIVE:START -->
-Rebuilt from <https://gate.horizonshield.dev/register> at **2026-10-22 00:02 UTC**.
+Rebuilt from <https://gate.horizonshield.dev/register> at **2026-10-23 00:01 UTC**.
 
 Nobody chooses these rows. A verdict of `verified` means the conditions that
 were measured passed on that date. It does not mean the numbers a server
@@ -233,31 +233,31 @@ returns are correct, and absence is **not** a negative verdict.
 | https://assay.agentdiet.dev/mcp | [`https://assay.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fassay.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://workflows.agentdiet.dev/mcp | [`https://workflows.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fworkflows.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://preflight.agentdiet.dev/mcp | [`https://preflight.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fpreflight.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
-| https://mesh.agentdiet.dev/mcp | [`https://mesh.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmesh.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
+| https://mesh.agentdiet.dev/mcp | [`https://mesh.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmesh.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-22 | 1 | `f755df45c9fb` |
 | https://mcp-security.agentdiet.dev/mcp | [`https://mcp-security.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-security.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
-| https://mcp-gateway.agentdiet.dev/mcp | [`https://mcp-gateway.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-gateway.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
+| https://mcp-gateway.agentdiet.dev/mcp | [`https://mcp-gateway.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-gateway.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-22 | 1 | `65b2d4ab6775` |
 | https://rag-diet.agentdiet.dev/mcp | [`https://rag-diet.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Frag-diet.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://prompt-guard.agentdiet.dev/mcp | [`https://prompt-guard.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fprompt-guard.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://json-repair.agentdiet.dev/mcp | [`https://json-repair.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjson-repair.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://serp-extract.agentdiet.dev/mcp | [`https://serp-extract.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fserp-extract.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://llms-generator.agentdiet.dev/mcp | [`https://llms-generator.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fllms-generator.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
-| https://github-audit.agentdiet.dev/mcp | [`https://github-audit.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgithub-audit.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
+| https://github-audit.agentdiet.dev/mcp | [`https://github-audit.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgithub-audit.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-22 | 1 | `5ad57237c73b` |
 | https://company-enrich.agentdiet.dev/mcp | [`https://company-enrich.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcompany-enrich.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://sec-intel.agentdiet.dev/mcp | [`https://sec-intel.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fsec-intel.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-21 | 1 | `3390bf2a4881` |
 | https://domain-osint.agentdiet.dev/mcp | [`https://domain-osint.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fdomain-osint.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://email-verify.agentdiet.dev/mcp | [`https://email-verify.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Femail-verify.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-21 | 1 | `17338a5762b1` |
 | https://arxiv-digest.agentdiet.dev/mcp | [`https://arxiv-digest.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Farxiv-digest.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
-| https://shopify-spy.agentdiet.dev/mcp | [`https://shopify-spy.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-spy.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
+| https://shopify-spy.agentdiet.dev/mcp | [`https://shopify-spy.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-spy.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-22 | 1 | `3a4b8821a898` |
 | https://x402-audit.agentdiet.dev/mcp | [`https://x402-audit.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402-audit.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://onchain-risk.agentdiet.dev/mcp | [`https://onchain-risk.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fonchain-risk.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://token-intel.agentdiet.dev/mcp | [`https://token-intel.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ftoken-intel.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://polymarket-odds.agentdiet.dev/mcp | [`https://polymarket-odds.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fpolymarket-odds.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
-| https://defi-yield.agentdiet.dev/mcp | [`https://defi-yield.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fdefi-yield.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
+| https://defi-yield.agentdiet.dev/mcp | [`https://defi-yield.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fdefi-yield.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-22 | 1 | `756cd3cd8294` |
 | https://hn-pulse.agentdiet.dev/mcp | [`https://hn-pulse.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhn-pulse.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-21 | 1 | `ab44a49a249f` |
-| https://shopify-intel.agentdiet.dev/mcp | [`https://shopify-intel.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-intel.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
+| https://shopify-intel.agentdiet.dev/mcp | [`https://shopify-intel.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-intel.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-22 | 1 | `771644345305` |
 | https://whale-momentum.agentdiet.dev/mcp | [`https://whale-momentum.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fwhale-momentum.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 | https://alpha-stream.agentdiet.dev/mcp | [`https://alpha-stream.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Falpha-stream.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
-| https://mcp-compiler.agentdiet.dev/mcp | [`https://mcp-compiler.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-compiler.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
+| https://mcp-compiler.agentdiet.dev/mcp | [`https://mcp-compiler.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-compiler.agentdiet.dev%2Fmcp) | 🟢 verified | 2026-10-22 | 1 | `c76ff864297b` |
 | https://cve-intel.agentdiet.dev/mcp | [`https://cve-intel.agentdiet.dev/mcp`](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcve-intel.agentdiet.dev%2Fmcp) | ⚪ not measured yet |  | 0 | `` |
 <!-- LIVE:END -->
 
